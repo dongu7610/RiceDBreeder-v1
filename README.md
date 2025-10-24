@@ -10,4 +10,5 @@ Dockerized version of **RiceDBreeder** and **RiceProteome** web applications.
 From the project root, run the following command:
 
 ```bash
-docker compose up -d# RiceDBreeder-v1
+docker compose up -d
+
