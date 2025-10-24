@@ -1,6 +1,6 @@
 # RiceDBreeder-v1
 
-Dockerized version of **RiceDBreeder** and **RiceProteome** web applications.
+Dockerized version of **RiceDBreeder** web applications.
 
 ---
 
