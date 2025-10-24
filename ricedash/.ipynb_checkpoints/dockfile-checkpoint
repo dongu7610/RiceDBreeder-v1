@@ -1,0 +1,17 @@
+FROM python:3.11.4-slim
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=Asia/Seoul
+
+# 시스템 패키지 설치
+RUN apt-get update && apt-get install -y \
+    libpq-dev \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /ricedash_build
+COPY ricedash_build/ .
+
+# Python 패키지 설치
+
+RUN pip install --no-cache-dir -r ./requirements/req.txt

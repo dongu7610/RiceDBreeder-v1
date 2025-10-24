@@ -1,0 +1,460 @@
+Trait,Trait ID,Mapped Terms,Description,Group
+bending moment,PPTO:0000944,-,The bending moment was length × fresh weight from the basal culm breaking point (where BS was measured) to the panicle top.,vigor
+callus induction,PPTO:0000559,TO:0000428,-,vigor
+development rate,PPTO:0000599,-,The rate of development.,vigor
+early sowing,PPTO:0000897,-,Plants were sown at beginning of June (“early sowing”).,vigor
+first callus appearance,PPTO:0000602,-,First callus appearance (observable entity).,vigor
+germination energy,PPTO:0000609,-,Number of germinated seeds at four days/Total number of seeds tested.,vigor
+germination index,PPTO:0000610,-,The ratio of the percentage of seeds with coleoptiles >5 mm in the cold treatment divided by the percentage of the seeds with coleoptile length >5 mm in the warm treatment.,vigor
+germination rate,PPTO:0000227,TO:0000430,Rate of germination of the seed.,vigor
+late sowing,PPTO:0000898,-,Plants were sown at mid-July (“late sowing”).,vigor
+light conversion effciency,PPTO:0000622,-,The ratio between the useful output of light conversion machine and the input.,vigor
+lodging,PPTO:0000888,-,"Lodging are related to cell wall properties, which could impact rice yield.",vigor
+lodging incidence,PPTO:0000539,TO:0000068,Measure of percentage of plants that lodged.,vigor
+lodging index,PPTO:0000967,-,"The lodging index (LI) was calculated as LI = bending moment/ (BS × the distance between fulcra (9 cm in this study) × 1/4), of which the bending moment was length × fresh weight from the basal culm breaking point (where BS was measured) to the panicle top.",vigor
+meristem growth rate,PPTO:0000624,-,The growth rate of meristem;leaf length increment between two consecutive leaves.,vigor
+percent germination,PPTO:0000270,TO:0010001,The percentage of seeds that germinate against the total number of seeds planted.,vigor
+plumule length after recovery,PPTO:0000921,-,The average from three replication was taken as plumule length after recovery for each accession.,vigor
+plumule length recovery rate,PPTO:0000922,-,The plumule length recovery rate indicates the growth rate of the plumule over a period of 4 days under normal conditions (30°C).,vigor
+relative germination index,PPTO:0000405,-,It is a ratio of germination index in stress to that of control environment.,vigor
+relative germination rate,PPTO:0000200,-,The relative germination rate of the seed determined after a given treatment as compared to the one determined under normal conditions.,vigor
+relative growth rate,PPTO:0000563,TO:0000515,A vigor trait (TO:0000250) that is the increase in aboveground biomass in a defined period of time.,vigor
+stalk bending strength,PPTO:0000441,-,Stalk bending strength (SBS) is a reliable indicator for evaluating stalk lodging resistance of maize plants. .,vigor
+vegetative vigor,PPTO:0000871,TO:0000296,"Represents the growth of plant. Used to evaluate genetic material under stress and non-stress conditions, several factors may interact, influencing the seedling vigor (e.g. tillering ability, plant height, etc).",vigor
+vigor index,PPTO:0000675,-,"Represents the seed growth of the plant.Calculation mode:germination index×shoot length,germination index: the number of the germinated seeds on the day t/t .",vigor
+forage yield,PPTO:0000872,TO:0000388,Yield of forage matter upon harvest.,yield
+grain number per plant,PPTO:0000486,TO:0000440,Number of grains (full grain with hull) present in one plant.,yield
+grain yield per plant,PPTO:0000115,TO:0000449,Average weight of dehulled grains per plant.,yield
+grain yield trait,PPTO:0000355,TO:0000396,A fruit yield trait (TO:0000871) that is the amount of grain.,yield
+harvest index,PPTO:0000530,TO:0000128,"Proportion of usable (economically significant) biomass over total (biological) biomass, expressed as a percentage.",yield
+head rice recovery,PPTO:0001316,-,Head rice recovery is defined as the proportion of paddy rice that retains 75% of its length after milling.,yield
+head rice yield,PPTO:0000869,TO:0000222,A grain yield trait (TO:0000396) which is the amount of whole (3/4 of original length or longer) milled kernels separated from the total amount of milled rice.,yield
+milled rice yield,PPTO:0000544,TO:0000144,A grain yield trait (TO:0000396) which is the proportion of kernels remaining after milling to remove the bran.,yield
+non-grain dry weight,PPTO:0000630,-,"The sum of leaf, stem and rachis dry weight.",yield
+productive panicle number,PPTO:0000917,-,The number of productive panicle number per plant.,yield
+productive tiller ratio,PPTO:0000963,-,The productive tiller ratio was calculated by the ratio of panicle-emerged tillers (productive tillers) to the maximum potential tillers (PTN/TNM2).,yield
+relative biomass,PPTO:0000543,TO:0000143,Relative yield was calculated as the ratio of biomass in stress to that of control.,yield
+uppermost internode,PPTO:0000935,-,Rice yield is seriously influenced by the uppermost internode through panicle enclosure or energy transport during grain-filling stages.,yield
+yield of 50 panicles,PPTO:0000309,-,Average weight of dehulled grains per 50 panicles.,yield
+anaerobic response index,PPTO:0000587,-,The difference of coleoptile elongation in submerged rice plants and coleoptile elongation in control. calculation:submerged coleoptile length-control coleoptile length.,stress
+anaerobic salt response index,PPTO:0001314,-,The difference of coleoptile length under submerged (anaerobic and salt) and control condition.,stress
+bakanae disease resistance,PPTO:0000558,TO:0000418,"Causal agent: Gibberella fujikuroi. Symptoms: the plant elongates abnormally, has few tillers and usually dies before producing grains.",stress
+black streak dwarf virus resistance,PPTO:0000864,TO:0000020,-,stress
+blast disease resistance,PPTO:0000540,TO:0000074,Causal agent: Magnaporthe grisea.,stress
+brown planthopper resistance,PPTO:0000822,TO:0000424,-,stress
+cadmium-mediated growth response,PPTO:0001315,-,Growth response to cadmium.,stress
+canopy temperature,PPTO:0000867,TO:0000157,Assay determines temperature of the leaf canopy.,stress
+cell membrane stability,PPTO:0001312,TO:0000467,Stability of the cell membrane under the impact of temperature (heat) and water deficit stress.,stress
+cold tolerance,PPTO:0000550,TO:0000303,"Tolerance to cold temperatures if plant is exposed to below permissive temperature limits. Observe differences in vigor along with subtle changes in leaf color. The optimum time to make observations would be the seedling, tillering (sensu Poaceae), flowering and mature stages.",stress
+concentration of na+ in the shoots,PPTO:0000597,-,The total sodium ion concentration measured in a given volume of a plant or a plant part or plant extract under alkaline growth conditions.,stress
+drought recovery,PPTO:0000600,-,The extent to which plants recover when soaked with water after exposure to drought. The extent of recovery depends strongly on the severity of drought.,stress
+drought susceptibility index,PPTO:0000344,TO:0000155,"The index is calculated as, DSI = (1-Yds/Yns), where Yds and Yns are mean yields of a given genotype in drought susceptible (DS) and non-susceptible (NS) environments respectively.",stress
+drought tolerance,PPTO:0000293,TO:0000276,Becoming tolerant to drought like conditions of minimal or no water content in the growth environment.,stress
+flooded coleoptile length,PPTO:0000604,-,A coleoptile morphology trait (TO:0000753) which is the length of a coleoptile (PO:0020033)under flooding conditons.,stress
+flooding tolerance index,PPTO:0000605,-,The ratio of coleoptile length treated to normal conditions.,stress
+growth in plant height,PPTO:0000931,-,Growth in plant height under some days of salt stress.,stress
+leaf bronzing score,PPTO:0000619,-,Leaf bronzing score (LBS) was assigned to the three youngest fully expanded leaves of the main tiller of each plant on someday after the application of the stress treatment;Symptoms of Fe toxicity in rice become visible as necrotic brown spots on the leaves termed as ‘leaf bronzing’.,stress
+lesion length,PPTO:0000158,-,Lesion length was recorded in mm as the length of visible lesion or discoloring on the main stem at seven DAI. Tis included lesions above and below the infection court.,stress
+m. graminicola resistance,PPTO:0000623,-,Resistant to M.graminicola.,stress
+nitrogen sensitivity,PPTO:0000862,TO:0000011,"Sensitivity to the nitrogen content in the growth medium. It is important for protein synthesis, chlorophyll etc.",stress
+nitrogen use efficiency,PPTO:0000828,-,Nitrogen use efficiency is the product of nitrogen productivity and the mean residencen time of nitrogen.,stress
+percentage of damage of the seedlings,PPTO:0000638,-,The percentage of seedlings damaged under certain treatments.,stress
+relative chlorophyll b content,PPTO:0001323,-,The relative chlorophyll B content in control condition to chlorophyll B content in stress condition.,stress
+relative chlorophyll fluorescence parameters,PPTO:0001337,-,The relative chlorophyll fluorescence parameters under stress condition to control condition.,stress
+relative death rate,PPTO:0001338,-,The relative death rate under under stress condition to control condition.,stress
+relative dry weight,PPTO:0000649,-,It is a ratio of the shoot dry weight(TO:0000552) determined from a stressed plant to that grown in normal environment.,stress
+relative germination energy,PPTO:0001330,-,Ratio of germination energy under stress condition to control condition.,stress
+relative lignin content,PPTO:0000651,-,It is a ratio of the lignin content(TO:0000731) determined from a stressed plant to that grown in normal environment.,stress
+relative mean germination time,PPTO:0001331,-,Ratio of mean germination time under stress to normal condition.,stress
+relative plant height,PPTO:0000413,TO:0001034,It is a ratio of the plant height determined from a stressed plant to that grown in normal environment.,stress
+relative root dry weight,PPTO:0000414,TO:0000644,The relative (dry)weight of the root determined after a given treatment as compared to the one determined under normal conditions.,stress
+relative root thickness,PPTO:0001324,-,The relative root thickness in stress condition to root thickness in stress condition.,stress
+relative shoot dry weight,PPTO:0000418,TO:0000636,-.,stress
+relative shoot thickness,PPTO:0001325,-,The relative shoot thickness in control condition to shoot thickness in stress condition.,stress
+relative single panicle weight,PPTO:0000654,-,It is a ratio of the panicle weight(TO:0000014) determined from a stressed plant to that grown in normal environment.,stress
+relative sodium content,PPTO:0001339,-,The relative sodium content under stress condition to control condition.,stress
+relative stress damage rate of panicle length,PPTO:0001333,-,The relative stress damage rate of panicle length is calculated using panicle length values as (control - stress treatment)/control x 100.,stress
+relative stress damage rate of seed-setting rate,PPTO:0001334,-,The relative stress damage rate of seed-setting rate is calculated using seed-setting rate values as (control - stress treatment)/control x 100.,stress
+relative thousand kernel weight,PPTO:0000655,-,It is a ratio of the thousand kernel weight determined from a stressed plant to that grown in normal environment.,stress
+relative tiller number,PPTO:0000656,-,It is a ratio of the tiller number determined from a stressed plant to that grown in normal environment.,stress
+relative total dry weight,PPTO:0000419,TO:0000633,-.,stress
+relative total lesion length,PPTO:0000479,-,Relative total lesion length (RTLL) were estimated as the ratio of the total lesion length to plant height.,stress
+relative total panicle weight,PPTO:0000657,-,It is a ratio of the total panicle weight(TO:0000014) determined from a stressed plant to that grown in normal environment.,stress
+relative total root surface area,PPTO:0001335,-,The relative total root surface area under stress condition to control condition.,stress
+relative total root volume,PPTO:0001336,-,The relative total root volume under stress condition to control condition.,stress
+relative vigor index,PPTO:0001332,-,Ratio of vigor index under stress condition to normal condition.,stress
+relatvie shoot fresh weight,PPTO:0000425,-,It is a ratio of the shoot fresh weight determined from a stressed plant to that grown in normal environment.,stress
+rice bacterial blight disease resistance,PPTO:0000545,TO:0000175,Causal agent: Xanthomonas oryzae pv. oryzae.,stress
+rice bacterial leaf streak disease resistance,PPTO:0000868,TO:0000203,Causal agent: Xanthomonas oryzae pv. oryzicola. Symptoms: linear lesions with small bacterial exudates evident. This scale may also be used for leaf smut caused by Entyloma oryzae.,stress
+rice seedling blight disease resistance,PPTO:0001311,TO:0000204,Causal agent: Xanthomonas oryzae pv. oryzae.,stress
+rice yellow mottle virus resistance,PPTO:0000860,TO:0000088,"Causal agent: rice yellow mottle virus (RYMV). Symptoms: stunting, reduced tillering, mottling and yellowish streaking of the leaves, delayed flowering or incomplete emergence of the panicle; in extreme cases, death of plants.",stress
+root relative elongation,PPTO:0000930,-,Relative root elongation was used to evaluate Al tolerance of all varieties.,stress
+salt tolerance,PPTO:0000577,TO:0006001,Tolerance to the high salt content in the growth medium.,stress
+salt tolerance index of K+ /Na+ ratio,PPTO:0001107,-,Tolerance to salt stress for K+ /Na+ ratio trait were evaluated using salt tolerance index.,stress
+salt tolerance index of root length,PPTO:0001109,-,Tolerance to salt stress for root length trait were evaluated using salt tolerance index.,stress
+score for salt toxicity symptoms,PPTO:0000269,-,Score for salt toxicity symptoms (SST) was evaluated according to the modifed Standard Evaluation System (SES).,stress
+score of alkalinity tolerance,PPTO:0000660,-,The percentage of dry and yellow leaves of the plant under alkaline growth conditions.,stress
+seedling numbers,PPTO:0000925,-,Seedling numbers (SN) in each plot were counted one month after salt application.,stress
+seedling survival days,PPTO:0000276,-,Seedling survival days (SSD) were recorded on daily basis since frst plant died.,stress
+sheath blight disease resistance,PPTO:0000870,TO:0000255,"Causal agent: Rhizoctonia solani. Symptom: Grayish-green lesions may enlarge and coalesce with other lesions, mostly on lower leaf sheaths, but occasionally on the leaves.",stress
+survival rate,PPTO:0000670,-,Percent of plants survived under treatment conditions.,stress
+total lesion length,PPTO:0000481,-,Total lesion length (TLL) was obtained by measuring the entire length of the visibly discolored region of the pith.,stress
+turgid weight,PPTO:0000956,-,Turgid weight (TW) was measured 24 h after floating the shoots in distilled water.,stress
+ultraviolet-b tolerance,PPTO:0000831,-,Ultraviolet-B tolerance.,stress
+zinc uptake,PPTO:0000948,-,The absorption of zinc is a variable and dynamic process.,stress
+blighted grain weight per plant,PPTO:0000915,-,The weight of blighted grains per plant.,Plant_Quality
+blighted grains per panicle,PPTO:0000914,-,Number of blighted grains per panicle.,Plant_Quality
+blighted grains per plant,PPTO:0000913,-,Number of blighted grains per plant.,Plant_Quality
+breakdown viscosity,PPTO:0000551,TO:0000374,"A cooking quality trait that is the tendency of gelatinized starch granules to break during cooking, especially at high temperature.",Plant_Quality
+brown rice rate,PPTO:0000211,-,Proportion of brown rice (dehulled grains) obtained from rough rice (hulled grain).,Plant_Quality
+chalk size,PPTO:0000594,-,The size of chalk.,Plant_Quality
+chalky grain rate,PPTO:0000213,-,The percentage of the chalky kernels.,Plant_Quality
+consistency viscosity,PPTO:0000552,TO:0000376,-,Plant_Quality
+cool paste viscosity,PPTO:0000553,TO:0000379,The final viscosity.,Plant_Quality
+degree of chalkness,PPTO:0000212,-,The degree of the grain chalkness.,Plant_Quality
+germinability at low temperature,PPTO:0000820,TO:0000483,Measure of the seed's germination ability at sub-permissive temperature levels.,Plant_Quality
+grain oil content,PPTO:0000353,-,Whole-grain oil content.,Plant_Quality
+grain thickness,PPTO:0000554,TO:0000399,A grain quality trait (TO:0000399) which is the thickness of a dehulled grain with a pericarp (PO:0009084).,Plant_Quality
+hot paste viscosity,PPTO:0000555,TO:0000408,-,Plant_Quality
+linear elongation ratio,PPTO:0001322,-,"Elongation ratio (L1/L0, where L1 is linear elongation of cooked rice and L0 is the length of milled rice) is a measure of kernel elongation upon cooking resulting from swelling of starch granules by uptake of water.",Plant_Quality
+panicle shattering degree,PPTO:0000955,-,The panicle shattering degree is defined as the proportion of grains detached at reproductive stage.,Plant_Quality
+panicle threshability,PPTO:0000873,TO:0000406,"A plant quality trait (TO:0000597) which is the percentage of shattered grains, determined by firmly grasping and pulling the hand over the panicle.",Plant_Quality
+peak viscosity,PPTO:0000556,TO:0000409,-,Plant_Quality
+percentage of head rice recovery,PPTO:0000639,-,The percentage of head rice recovery.,Plant_Quality
+rapidly digestible starch,PPTO:0000900,-,"Rapidly digestible starch is rapidly digested and absorbed in the small intestine, inducing a rapid elevation of postprandial glucose and insulin responses and usually a subsequent episode of hypoglycaemia.",Plant_Quality
+resistant starch,PPTO:0000899,-,"Resistant starch is a dietary fiber representing the part of starch that is not digestible by the enzymes of the stomach and the small intestine, but remains intact until reaching the colon where it acts as a prebiotic.",Plant_Quality
+setback viscosity,PPTO:0000557,TO:0000412,Determined by deducting the peak viscosity from the cool paste viscosity.,Plant_Quality
+slowly digestible starch,PPTO:0000901,-,"Slowly digestible starch serves as an intermediate starch fraction between RDS and RS, which is digested slowly but entirely throughout the small intestine, providing sustained glucose release with low initial glycemia, leading to prolonged energy availability.",Plant_Quality
+taste score of cooked grain,PPTO:0000902,-,"Taste scores of cooked rice were evaluated using a taste analyzer kit (Satake, STA1B‐RHS1A‐RFDM1A, Japan) that included a taste analyzer, a freshness meter, and a hardness and viscosity analyzer.",Plant_Quality
+whiteness degree of complete grain,PPTO:0000919,-,The rice whiteness determine the complete grain milling degree.,Plant_Quality
+whiteness degree of dead grain,PPTO:0000920,-,The rice whiteness determine the dead grain milling degree.,Plant_Quality
+100-dehulled grain weight,PPTO:0000234,TO:0000591,A dehulled grain weight (TO:0000590) which is the weight of a sample of 100 dehulled grains (caryopsis fruit; PO:0030104).,plant_morphology
+100-grain weight,PPTO:0000117,TO:0000269,"A grain weight (TO:0000919) which is the weight of a sample of 100 grains (caryopsis fruit; PO:0030104), with the caryopsis hull (PO:0006000).",plant_morphology
+1000-grain weight,PPTO:0000305,TO:0000592TO:0000382TO:0000595,Weight of the 1000-dehulled grains having pericarp (seed coat).,plant_morphology
+75th percentile of coleoptile length at day 8 of dark submergence,PPTO:0000582,-,75th percentile of coleoptile length at Day 8 of dark submergence.,plant_morphology
+above ground biomass,PPTO:0000583,-,Measurement of total dried above ground biomass in g/plot or kg/ha or kg/plot or ton/ha.,plant_morphology
+angle to the vertical of the root cone,PPTO:0000208,-,The angle of the root cone.,plant_morphology
+average grain weight,PPTO:0000230,TO:0000589,"A grain yield trait (TO:0000396) which is the average weight of a grain, including the caryopsis hull (PO:0006000).",plant_morphology
+awn color,PPTO:0000866,TO:0000141,An awn morphology trait (TO:0002718) which is a color of the awn (PO:0025349).,plant_morphology
+awn length,PPTO:0000210,TO:0000072,An awn morphology trait (TO:0002718) which is the length of awn (PO:0025349).,plant_morphology
+awn presence,PPTO:0000493,TO:0002734,An awn morphology trait (TO:0002718) which is the presence or absence of an awn (PO:0025349). Observation may include relative awn size.,plant_morphology
+awn type,PPTO:0000885,-,"An awn morphology trait which is the type of awn, 0-absent; 1-short and partly awned; 5- short and fully awned; 7-long and partly awned and 9-long and fully awned.",plant_morphology
+breaking strength of the basal internode,PPTO:0000965,-,Measurement of the culm thickness of cross-section of the 1st internode from plant base.,plant_morphology
+brown rice length/width ratio,PPTO:0000589,-,Ratio of length to width of the brown rice.,plant_morphology
+brown rice seed length,PPTO:0000590,-,The length of the brown rice seed.,plant_morphology
+brown rice seed width,PPTO:0000591,-,The width of the brown rice seed.,plant_morphology
+brown rice surface area,PPTO:0000592,-,The surface area of the brown rice.,plant_morphology
+brown rice volume,PPTO:0000593,-,The volume of the brown rice.,plant_morphology
+chalky endosperm,PPTO:0000823,TO:0000266,-,plant_morphology
+coleoptile diameter,PPTO:0000957,-,The diameter of neck panicle (DONP) was measured at 15 cm below the neck section of the main panicle using a 150 mm vernier caliper.,plant_morphology
+coleoptile length,PPTO:0000570,TO:0001007,A coleoptile morphology trait (TO:0000753) which is the length of a coleoptile (PO:0020033).,plant_morphology
+coleoptile length at day 4 of air,PPTO:0000595,-,Coleoptile length at Day 4 of air.,plant_morphology
+coleoptile length at day 8 of dark submergence,PPTO:0000596,-,Coleoptile length at Day 8 of dark submergence.,plant_morphology
+crown root number,PPTO:0000339,TO:0002685,A count of number of crown roots present in the seedling.,plant_morphology
+culm habit,PPTO:0000598,-,Average culm angle of plants at maturity.,plant_morphology
+deep root biomass,PPTO:0000216,-,"The root system was cut into three segments (0-20 cm, 20-30 cm and below 30 cm). the deep root biomass (DRB) were computed in the two deepest segments.",plant_morphology
+deep root proportion,PPTO:0000217,TO:0000092,The proportion of the deep root weight to the total root weight.,plant_morphology
+deepest point reached by the roots in position in the plates,PPTO:0000218,-,The deepest point reached by the roots was measured in position.,plant_morphology
+degree of seed shattering,PPTO:0000219,-,"The degree of seed shattering was scored on a scale of 1–3 (easy, medium and hard) when grains fully ripened.",plant_morphology
+dry biomass at maturity,PPTO:0000904,-,The dry biomass was measured at maturity.,plant_morphology
+dual stigma exsertion,PPTO:0000221,-,The rate of dual stigma exsertion.,plant_morphology
+filled grain number,PPTO:0000560,TO:0000447,Filled grain number Determined by counting the number of spikelets filled with grain in one inflorescence (panicle).,plant_morphology
+filled grain weight per plant,PPTO:0000916,-,The weight of filled grains per plant.,plant_morphology
+flag leaf angle,PPTO:0000542,TO:0000124,"A flag leaf morphology trait (TO:0000832) which is an angle of the flag leaf (PO:0020103) measured near the collar, as the angle of attachment between the flag leaf blade and the main inflorescence axis in grass plants.",plant_morphology
+flag leaf area,PPTO:0000877,TO:0000996,A flag leaf anatomy and morphology trait (TO:0000832) which is the area of a flag leaf (PO:0020103).,plant_morphology
+flag leaf lamina width,PPTO:0000223,TO:0002758,"Actual measurements, in centimeters of the widest portion of the flag leaf lamina.",plant_morphology
+flag leaf length,PPTO:0000222,TO:0002757,A flag leaf morphology trait (TO:0000832) which is the length of the flag leaf (PO:0020103).,plant_morphology
+flag leaf length/width,PPTO:0000603,-,The ratio of flag leaf length to flag leaf width.,plant_morphology
+floret number per inflorescence,PPTO:0000576,TO:0002738,Average number of flowers (florets) in a grass inflorescence.,plant_morphology
+floret pubescence,PPTO:0001319,-,The extent of pubescence (presence of hairs) on the floret.,plant_morphology
+flower number,PPTO:0000575,TO:0002736,Flower number trait an inflorescence morphology trait (TO:0000582 ) which is the number of flowers (PO:0009046).,plant_morphology
+grain circumferences,PPTO:0001320,-,The circumference of grain.,plant_morphology
+grain length,PPTO:0000228,TO:0000734,A fruit length (TO:0002626) of the dehulled grain with pericarp (PO:0009084).,plant_morphology
+grain length to width ratio,PPTO:0000229,TO:0002731,A grain size (TO:0000397) which is the grain length and grain width on dehulled grain.,plant_morphology
+grain number,PPTO:0000352,TO:0002759,A fruit number trait (TO:0000894) which is the number of grains (caryopsis fruit; PO:0030104) in an infructescence (PO:0006342).,plant_morphology
+grain projected area,PPTO:0000614,-,Grain-projected area is a 2D projected image of grain and is a composite trait reflecting both the grain length and width.,plant_morphology
+grain size,PPTO:0000824,TO:0000397,-,plant_morphology
+grain transparency,PPTO:0000615,-,Any measurable or observable characteristic related to the grain transparency.,plant_morphology
+grain volume,PPTO:0000354,TO:0001108,A caryopsis fruit morphology trait (TO:0001079) which is the volume of a grain (caryopsis fruit; PO:0030104).,plant_morphology
+grain width,PPTO:0000231,TO:0000975,A fruit width (TO:0002627) which is the variation in the width of a grain (PO:0009001).,plant_morphology
+green leaf number,PPTO:0000616,-,The number of green leaves in a shoot system (PO:0009006) of a plant.,plant_morphology
+green leaves area,PPTO:0000617,-,The area of green leaves.,plant_morphology
+hull color,PPTO:0000233,TO:0000706,Describes the color of hull.,plant_morphology
+hull cover,PPTO:0000886,-,Describes the cover of hull.,plant_morphology
+inflorescence axis length,PPTO:0000573,TO:0001072,An inflorescence axis morphology trait (TO:0000782) which is the length of an inflorescence axis (PO:0020122).,plant_morphology
+inflorescence primary branch length,PPTO:0000490,TO:0000641,An inflorescence primary branch morphology trait (TO:0000846) which the length of a second order inflorescence axis (PO:0006321).,plant_morphology
+internode diameter,PPTO:0001317,-,Internode diameter.,plant_morphology
+kernel rate,PPTO:0000887,-,The kernel rate of rice.,plant_morphology
+kernel weight per ear,PPTO:0000361,TO:0000935,-.,plant_morphology
+large vascular bundle number,PPTO:0000294,TO:0000539,Number of the large sized vascular bundles.,plant_morphology
+leaf angle,PPTO:0000239,TO:0000206,A leaf attitude (TO:0000206) which is the angle of a leaf (PO:0025034) measured against the stem.,plant_morphology
+leaf area trait,PPTO:0000240,TO:0000540,A leaf morphology trait (TO:0000748) which is the total area of a leaf (PO:0025034).,plant_morphology
+leaf dry matter percentage,PPTO:0000938,-,"The leaf dry matter percentage can be considered a proxy for the photosynthetic efficiency per unit leaf area, which contributes to yield.",plant_morphology
+leaf dry weight,PPTO:0000878,TO:0001014,A leaf weight trait (TO:0000505) which is the dry weight of a leaf (PO:0025034).,plant_morphology
+leaf fresh weight,PPTO:0000939,-,The bags with samples were weighed to determine the leaf fresh weight.,plant_morphology
+leaf length,PPTO:0000365,TO:0000135,A leaf size (TO:0002637) trait which is a length of a leaf (PO:0025034).,plant_morphology
+leaf pubescence,PPTO:0000574,TO:0002722,A leaf morphology trait (TO:0000748) which is the extent of pubescence (presence of hairs) on the leaf (PO:0025034).,plant_morphology
+leaf roll degree,PPTO:0000369,-,The degree of leaf rolling. LRD was scored with a range from 1 (totally rolled) to 5 (not rolled at all).,plant_morphology
+leaf senescence trait,PPTO:0000547,TO:0000249,A measure of aging of leaf.,plant_morphology
+leaf turgid weight,PPTO:0000940,-,The samples were put into falcon tubes containing distilled water overnight and weighed again to obtain the leaf turgid weight.,plant_morphology
+leaf width,PPTO:0000370,TO:0000370,A leaf size (TO:0002637) trait which the width of a leaf (PO:0025034).,plant_morphology
+lemma apiculus color,PPTO:0000209,TO:0000140,Color of the apiculus.,plant_morphology
+length of primary branch,PPTO:0000620,-,An primary branch morphology trait (TO:0000052) which is the length of primary branch.,plant_morphology
+length of secondary branch,PPTO:0000621,-,An secondary branch morphology trait which is the length of secondary branch.,plant_morphology
+length of the 2nd internode from plant base,PPTO:0000966,-,Measurement of the length of the 2nd internode from plant base.,plant_morphology
+maximum fluorescence,PPTO:0000937,-,Maximum fluorescence (Fm) was recorded by applying a saturating pulse of radiation.,plant_morphology
+mesocotyl length,PPTO:0000243,TO:0000544,A mesocotyl morphology trait (TO:0000758) which is the length of a mesocotyl (PO:0020037).,plant_morphology
+minimum fluorescence,PPTO:0000936,-,Minimum fluorescence (F0) was measured under weak modulating radiation.,plant_morphology
+naked seed length,PPTO:0000244,-,A seed morphology trait (TO:0000184) which is the length of a naked seed (PO:0009010).,plant_morphology
+naked seed width,PPTO:0000245,-,A seed morphology trait (TO:0000184) which is the width of a naked seed (PO:0009010).,plant_morphology
+naked seed width to length ratio,PPTO:0000246,-,"A caryopsis fruit morphology trait (TO:0001079) which is the ratio of grain width to grain length,excluding the caryopsis hull (PO:0006000).",plant_morphology
+neck panicle diameter,PPTO:0000962,-,The diameter of neck panicle (DONP) was measured at 15 cm below the neck section of the main panicle using a 150 mm vernier caliper.,plant_morphology
+nodal root number,PPTO:0000387,-,The total number of the nodal root.,plant_morphology
+number of bottom secondary rachis branches,PPTO:0000953,-,The number of bottom secondary rachis branches was estimated.,plant_morphology
+number of ears per plant,PPTO:0001159,-,The number of ears per plant.,plant_morphology
+number of middle secondary rachis branches,PPTO:0000952,-,The number of middle secondary rachis branches was estimated.,plant_morphology
+number of root tips,PPTO:0000249,-,Number of root tips.,plant_morphology
+number of roots reaching 30 cm depth,PPTO:0000250,-,The number of roots reaching 30cm depth.,plant_morphology
+number of spikelets per secondary branch,PPTO:0000632,-,Average number of spikelets per secondary branch.,plant_morphology
+number of tillers bearing a panicle,PPTO:0000633,-,Number of tillers bearing a panicle per plant.,plant_morphology
+number of tillers per linear meter,PPTO:0000251,-,"Number of tillers per linear meter, should represent most plants within a study.",plant_morphology
+number of upper secondary rachis branches,PPTO:0000951,-,The number of upper secondary rachis branches was estimated.,plant_morphology
+outer diameter of the minor axis,PPTO:0001327,-,Outer diameter of the minor axis.,plant_morphology
+panicle axis,PPTO:0000958,-,The panicle axis is a simple visual analysis of the panicle position.,plant_morphology
+panicle fertility,PPTO:0000635,-,Percent of spikelets that filled and produced seeds determined as the ratio of seeds per panicle/spikelets per panicle.,plant_morphology
+panicle inflorescence exsertion,PPTO:0000484,TO:0000165,A panicle inflorescence morphology trait (TO:0000847) which is the extent of coverage of panicle inflorescence (PO:0030123) by a sheath of a flag leaf (PO:0020103).,plant_morphology
+panicle inflorescence type,PPTO:0000541,TO:0000089,"A panicle inflorescence morphology trait (TO:0000847) which is the mode of branching, angle of primary branches, and spikelet density of a panicle inflorescence (PO:0030123).",plant_morphology
+panicle length,PPTO:0000252,TO:0000040,A panicle morphology trait (TO:0000847) which is the measurement in centimeters from panicle base to tip.,plant_morphology
+panicle weight,PPTO:0000863,TO:0000014,Average weight of the panicle from the plants or tillers in a given study.,plant_morphology
+panicle width,PPTO:0000636,-,Width of the panicle.,plant_morphology
+panicular node height,PPTO:0000254,-,The heigh of the panicular node.,plant_morphology
+pericarp color,PPTO:0000255,TO:0000707,A pericarp morphology trait (TO:0000945) that is the color of the pericarp (PO:0009084).,plant_morphology
+plant biomass,PPTO:0000256,-,The weight of the whole plant.,plant_morphology
+plant compactness,PPTO:0000640,-,"Divide the image into several sub-images using a (5 × 5) window. And calculate the ratio of the foreground pixels to the total number of pixels in each sub-image (5 × 5), denoted as plant compactness in each sub-image (PCs). Categorize PCs into six classes: C1: <10%, C2: 10-20%, C3: 20-40%, C4: 40-60%, C5: 60-80%, C6: 80-100%. Then Count the number of PCs belonging to each class, denoted as NDi(i=1,2…6). At last, leaf compactness of class i (PCi) was computed as the percentage of NDi compared to the sum of NDi.",plant_morphology
+plant dry weight,PPTO:0001026,TO:0000352,The dry weight of the whole plant.,plant_morphology
+plant height,PPTO:0000126,TO:0000207,A whole plant morphology trait (TO:0000398) which is the height of a whole plant (PO:0000003).,plant_morphology
+primary branch number,PPTO:0000533,TO:0000547,A primary branch of inflorescence (TO:0000052) trait which is the number of primary branches present in the inflorescence (PO:0009049).,plant_morphology
+primary internode length,PPTO:0000642,-,Rachis internode length average.,plant_morphology
+productive tiller number,PPTO:0000924,-,"Productive tiller number (PTN), defined as the number of tillers that produce spikes and seeds, is a key component of grain yield.",plant_morphology
+projected shoot area,PPTO:0000934,-,"These images were processed to remove all background objects, leaving just pixels for the green shoot tissue. We summed the pixels from each image to obtain an estimate of the shoot biomass. We refer to this metric as PSA.",plant_morphology
+ratio between coleoptile length at days 8 and 4,PPTO:0000643,-,The ratio of Length of coleoptile (a protective sheath that surrounds the shoot tip and the embryonic leaves of the young shoot of grasses)betwween days 8 and days 4.,plant_morphology
+ratio of deep rooting,PPTO:0000644,-,Ratio of deep root mass below 30 cm depth to total root mass.,plant_morphology
+relative fresh root weight,PPTO:0000466,-,The ratio of fresh root weight between stress and control condition.,plant_morphology
+relative leaf weight,PPTO:0000941,-,The relative leaf weight (RTW) was calculated as the ratio of leaf fresh weight to turgid weight.,plant_morphology
+relative leaf width,PPTO:0000650,-,The relative width of the leaf determined after a given treatment as compared to the one determined under normal conditions.,plant_morphology
+relative root length,PPTO:0000416,TO:0000516,The relative length of the root determined after a given treatment as compared to the one determined under normal conditions.,plant_morphology
+relative root/shoot ratio,PPTO:0000653,-,The relative ratio determined from the parameters evaluated for root length and the shoot length after a given treatment as compared to the one ditermined under normal conditions.,plant_morphology
+relative shoot length,PPTO:0000259,-,The relative length of the shoot determined after a given treatment as compared to the one determined under normal conditions.,plant_morphology
+relative total fresh weight,PPTO:0000420,-,The relative total fresh weight of plant or plant part determined after a given treatment as compared to the one determined under normal conditions.,plant_morphology
+relative water content,PPTO:0000422,-,The relative water content of plant or plant part determined after a given treatment as compared to the one determined under normal conditions.,plant_morphology
+rice endosperm type trait,PPTO:0000861,-,A broad classification of the type of endosperm based on the presence or absence of amylose.,plant_morphology
+root biomass,PPTO:0000260,-,"The amount (weight) of root per unit area, volume or plant.",plant_morphology
+root cone angle,PPTO:0000261,-,The angle of the root cone to the vertical axis .,plant_morphology
+root dry mass below 30cm,PPTO:0000262,-,"The root system was cut into three segments (0-20 cm, 20-30 cm and below 30 cm). the dry weight of the below 30cm segments.",plant_morphology
+root dry mass in the 00-20cm layer,PPTO:0000263,-,"The root system was cut into three segments (0-20 cm, 20-30 cm and below 30 cm). the dry weight of the 0~20cm segments.",plant_morphology
+root dry mass in the 20-30cm layer,PPTO:0000264,-,"The root system was cut into three segments (0-20 cm, 20-30 cm and below 30 cm). The dry weight of the 20~30cm segments.",plant_morphology
+root dry weight,PPTO:0000265,TO:0000078,The average dry weight of the root determined in a study.,plant_morphology
+root fresh weight,PPTO:0000429,TO:0000578,The average fresh weight of the root determined in a study.,plant_morphology
+root hair density,PPTO:0000879,TO:0001051,A root morphology trait (TO:0000043) which is the number of root hairs (GO:0035618) in a given surface area of a root (PO:0009005).,plant_morphology
+root hair length,PPTO:0000880,TO:0002665,A root morphology trait (TO:0000043) which is the length of a root hair (GO:0035618) present on a root (PO:0009005).,plant_morphology
+root length,PPTO:0000242,TO:0000227,A root morphology trait (TO:0000043) which is the length of one or more roots (PO:0009005).,plant_morphology
+root surface area,PPTO:0000266,-,The total surface area of the plant root system.,plant_morphology
+root thickness,PPTO:0000826,TO:0000306,-,plant_morphology
+root tip number,PPTO:0000659,-,The number of the root tips.,plant_morphology
+root to shoot ratio,PPTO:0000267,TO:0000278,The ratio determined from the parameters evaluated for root length and the shoot length in a study.,plant_morphology
+root volume,PPTO:0000268,TO:0000233,Is an indirect measure of root mass or density. Quantified in terms of cubic centimeters by water displacement method.,plant_morphology
+root weight,PPTO:0000432,TO:0000279,A root morphology trait (TO:0000043) which is the weight of a root (PO:0009005).,plant_morphology
+secondary branch length,PPTO:0000661,-,The length of secondary branch.,plant_morphology
+secondary internode length,PPTO:0000662,-,Primary branch internode length average.,plant_morphology
+seed coat color,PPTO:0000165,TO:0000190,A seed coat morphology trait (TO:0000838) which is the color of the seed coat (PO:0009088).,plant_morphology
+seed color,PPTO:0000562,TO:0000486,A seed morphology trait (TO:0000184) which is the color of a seed (PO:0009010).,plant_morphology
+seed fertility,PPTO:0000568,TO:0000639,Percent seed fertility.,plant_morphology
+seed length,PPTO:0000271,TO:0000146,A seed morphology trait (TO:0000184) which is the length of a seed (PO:0009010).,plant_morphology
+seed set percent,PPTO:0000561,TO:0000455,An infructescence morphology trait (TO:0000920) which is the percent of seeds (PO:0009010) set in an infructescence (PO:0006342).,plant_morphology
+seed surface area,PPTO:0000664,-,Surface area of the seed with hull (palea and lemma).,plant_morphology
+seed volume,PPTO:0000665,-,Volume of the seed with hull (palea and lemma).,plant_morphology
+seed weight,PPTO:0000175,TO:0000181,A seed morphology trait (TO:0000184) which is the weight of a seed (PO:0009010).,plant_morphology
+seed width,PPTO:0000273,TO:0000149,A seed morphology trait (TO:0000184) which is the width of a seed (PO:0009010).,plant_morphology
+seed width to length ratio,PPTO:0000274,-,"A caryopsis fruit morphology trait (TO:0001079) which is the ratio of grain width (TO:0002762) to grain length (TO:0000734), including the caryopsis hull (PO:0006000).",plant_morphology
+seedling dry weight,PPTO:0000949,-,The dry weight of the seedlings.,plant_morphology
+seedling fresh weight,PPTO:0000950,-,The fresh weight of the seedlings.,plant_morphology
+seedling length,PPTO:0000275,-,The length of the seedling on 10 days after soaking.,plant_morphology
+shoot biomass,PPTO:0000277,-,The amount (weight) of shoot per unit area or plant.,plant_morphology
+shoot dry weight,PPTO:0000278,TO:0000552,The dry weight of the shoot without inflorescence.,plant_morphology
+shoot fresh weight,PPTO:0000436,TO:0000571,Fresh weight of the shoot without inflorescence.,plant_morphology
+shoot length,PPTO:0000280,-,The length of the shoot.,plant_morphology
+shoot thickness,PPTO:0001341,-,The thickness of the shoot.,plant_morphology
+shoot water content,PPTO:0000437,-,The ratio between shoot dry weight and shoot length.,plant_morphology
+single stigma exsertion,PPTO:0000283,-,The rate of single stigma exsertion.,plant_morphology
+small vascular bundle number,PPTO:0000295,TO:0000558,Number of small sized vascular bundles present in a plant part.,plant_morphology
+specific leaf area,PPTO:0000565,TO:0000562,A leaf area trait (TO:0000540) that is the ratio of the leaf area (TO:0000540) to the leaf dry weight (TO:0001014) or leaf dry mass (TO:New).,plant_morphology
+spikelet fertility,PPTO:0000546,TO:0000180,A spikelet morphology trait (TO:0000657) which is the fertility to a spikelet (PO:0009051).,plant_morphology
+spikelet length,PPTO:0000284,TO:0002768,A spikelet morphology trait (TO:0000657) which is the length of a spikelet (PO:0009051).,plant_morphology
+spikelet number,PPTO:0000285,TO:0000456,A spikelet morphology trait (TO:0000657) which is the average number of spikelets (PO:0009051) in one or more inflorescence (PO:0009049) (e.g. rice panicle) found in a plant or on all plants of a study.,plant_morphology
+spikelet per panicle,PPTO:0000667,-,Average number of spikelets per panicle.,plant_morphology
+spikelet thickness,PPTO:0000286,-,A spikelet morphology trait (TO:0000657) which is the thickness of the spikelets (PO:0009051) present in a grass inflorescence.,plant_morphology
+spikelet width,PPTO:0000287,TO:0000564,A spikelet morphology trait (TO:0000657) which is the width of the spikelets (PO:0009051) present in a grass inflorescence.,plant_morphology
+stem diameter,PPTO:0000444,TO:0020083,A stem morphology trait (TO:0000361) which is the diameter of a stem (PO:0009047).,plant_morphology
+stem inner diameter,PPTO:0001342,-,The stem inner diameter of the middle of the second internode (counted from the base).,plant_morphology
+stem length,PPTO:0000567,TO:0000576,A stem morphology trait (TO:0000361) which is the length of the stem (PO:0009047).,plant_morphology
+stem thickness,PPTO:0000876,-,A stem morphology trait (TO:0000361) which is the thickness of a stem (PO:0009047).,plant_morphology
+stem wall thickness,PPTO:0001343,-,The stem wall thickness of the middle of the second internode (counted from the base).,plant_morphology
+stigma length,PPTO:0000288,TO:0011008,A floral organ length (TO:0002614) that is the length of the stigma (PO:0009073).,plant_morphology
+straighthead disorder severity rate,PPTO:0001344,-,Straighthead disorder severity rate.,plant_morphology
+style angle,PPTO:0000289,-,A floral organ angle that is the angle of the style (PO:0009074).,plant_morphology
+style length,PPTO:0000290,TO:0011009,A floral organ length (TO:0002614) that is the length of the style (PO:0009074).,plant_morphology
+tassel spike length,PPTO:0000451,TO:0000939,An inflorescence axis length (TO:0001072) which is the length of the first order tassel inflorescence axis (PO:0006324) from the most distal branch point to the tip of the tassel inflorescence (PO:0020126).,plant_morphology
+the phloem area of large vascular bundle,PPTO:0000296,-,The phloem area of large vascular bundle.,plant_morphology
+the phloem area of small vascular bundle,PPTO:0000297,-,The phloem area of small vascular bundle.,plant_morphology
+the total area of large vascular bundle,PPTO:0000301,-,The total area of large vascular bundle.,plant_morphology
+the total area of small vascular bundle,PPTO:0000302,-,The total area of small vascular bundle.,plant_morphology
+the xylem area of large vascular bundle,PPTO:0000303,-,The xylem area of large vascular bundle.,plant_morphology
+the xylem area of small vascular bundle,PPTO:0000304,-,The xylem area of small vascular bundle.,plant_morphology
+tiller angle,PPTO:0000566,TO:0000567,-,plant_morphology
+tiller number,PPTO:0000306,TO:0000346,"Number of tillers per plant, should represent most plants within a study.",plant_morphology
+total biomass yield,PPTO:0000452,TO:0000457,-.,plant_morphology
+total root length,PPTO:0000454,-,A root morphology trait (TO:0000043) which is the total length of the primary root length and the lateral root length.,plant_morphology
+total stigma exsertion,PPTO:0000307,TO:0000044,Trait is monitored by counting number of flowers or florets that have completed anthesis on a given day and showing exserted stigma. Trait expressed as percent stigma exsertion.,plant_morphology
+unfilled grain number,PPTO:0000538,TO:0000028,Number of unfilled florets in a grass inflorescence.,plant_morphology
+vascular bundle number,PPTO:0000874,TO:0000472,A plant structure morphology trait (TO:0000839) which is the number of vascular bundles (PO:0005020) in a plant structure (PO:0009011).,plant_morphology
+volume of thick roots,PPTO:0000308,-,Volume of the thick roots (diameter > 0.6 mm).,plant_morphology
+white core rice kernel,PPTO:0001345,-,One type of grain chalkiness.,plant_morphology
+days from flowering to maturity,PPTO:0000215,-,Number of days required from flowering to maturity .,groth_and_dev
+days to first emergence,PPTO:0000942,-,The term “days to first emergence” used in the present study refers to the emergence of one or two seedlings from the soil.,groth_and_dev
+days to flowering trait,PPTO:0000155,TO:0000344,"A flowering time trait (TO:0002616) which is the number of days required for an individual flower (PO:0009046), a whole plant (PO:0000003) or a plant population to reach flowering stage (PO:0007616) from a predetermined time point (e.g. the date of seed sowing, seedling transplant, or seedling emergence).",groth_and_dev
+days to full emergence,PPTO:0000943,-,The term “days to full emergence” refers to the emergence of 90–95% of the seedlings per plot.,groth_and_dev
+days to germinate,PPTO:0000340,TO:0006061,Number of days taken from the day of sowing to the first emergence of cotyledons or hypocotyl.,groth_and_dev
+days to heading,PPTO:0000232,TO:0000137,Number of days required for the inflorescence (head/cob/panicle) to emerge from the flag leaf of a plant or a group of plants in a study.,groth_and_dev
+days to maturity,PPTO:0000156,TO:0000469,Number of days required from seeding to seed/grain ripening .,groth_and_dev
+flowering duration,PPTO:0000606,-,Period during which plants continue to flower.,groth_and_dev
+flowering time ratio,PPTO:0000607,-,The ratio of flowering time(TO:0002616) between two conditon or places.,groth_and_dev
+germination temperature,PPTO:0001365,-,The temperature of seed germination.,groth_and_dev
+heading interval,PPTO:0000964,-,The heading interval (HDI) was defined as the time from the date of emergence of the first panicle to the last panicle in a plant.,groth_and_dev
+mesocotyl elongation,PPTO:0000843,-,Elongation of the mesocotyl and coleoptile facilitates the emergence of rice (Oryza sativa) seedlings from soil and is affected by various genetic and environment factors.,groth_and_dev
+nitrogen balance index,PPTO:0000247,-,An indicator of the plant nitrogen status .,groth_and_dev
+plastochron or phyllochron,PPTO:0000641,-,The time between the initiation of two leaves on the shoot apical meristem is called a plastochron;The time interval between the appearance of successive leaves (days/leaf) on the developing shoot is called phyllochron.,groth_and_dev
+ripening ratio,PPTO:0000658,-,The ratio of the number of filled spikelets to the total number of spikelets.,groth_and_dev
+seed density,PPTO:0000663,-,The number of seeds placed in a meter of row or placed in the seed bed or other units.,groth_and_dev
+seed dormancy,PPTO:0000299,TO:0000253,Seed dormancy.,groth_and_dev
+breeding stage,PPTO:0000588,-,Breedling stage.,biological_process
+electrolyte leakage,PPTO:0000601,-,Leaves were excised and immersed in 15 ml of distilled water in test tubes overnight at room temperature. The initial conductivity of the water was determined using a conductivity meter.,biological_process
+guard cell length on the abaxial surface,PPTO:0000910,-,"The guard cell length (L) on the abaxial leaf surface (Lada, μm) was observed and measured at 1200 × magnification and repeated for five replicates.",biological_process
+guard cell length on the adaxial surface,PPTO:0000906,-,"The guard cell length (L) on the adaxial leaf surface (Lada, μm) was observed and measured at 1200 × magnification and repeated for five replicates.",biological_process
+guard cell width on the abaxial surface,PPTO:0000911,-,"The guard cell width (W) on the abaxial leaf surface (Wada, μm) was observed and measured at 1200 × magnification and repeated for five replicates.",biological_process
+guard cell width on the adaxial surface,PPTO:0000907,-,"The guard cell width (W) on the adaxial leaf surface (Wada, μm) was observed and measured at 1200 × magnification and repeated for five replicates.",biological_process
+ic threshold,PPTO:0000618,-,"Ic threshold.The resulting daily plant C supply/ demand ratio defines Ic, a state affecting growth and development processes depending on genotypic.",biological_process
+net photosynthetic rate,PPTO:0000571,TO:0001027,It is measured as the difference between gross photosynthesis (the total amount of carbon fixed by the plant per unit time) and the respiration (the total amount of carbon lost metabolically during that same time).,biological_process
+non photochemical quenching,PPTO:0000248,TO:0020117,The process to maintain the balance between dissipation and utilization of light energy to minimize generation of oxidizing molecules under no light conditions.,biological_process
+panicle number,PPTO:0000253,TO:0000152,A panicle morphology trait (TO:0000847) which is the average number of panicles per plant in a study.,biological_process
+quantum efficiency of photosystem ii,PPTO:0000398,-,"Quantum efficiency of photosystem II (ΦPSII) recorded in the second leaf by using a portable OS-30p Chlorophyll Fluorometer (Opti-Sciences, Tyngsboro, Massachusetts, USA) .",biological_process
+ratio of electrolyte leakage,PPTO:0000645,-,Leaves were excised and immersed in 15 ml of distilled water in test tubes overnight at room temperature. The initial conductivity of the water was determined using a conductivity meter.the ratio of conductivity before boiling to that after boiling.,biological_process
+secondary branch number,PPTO:0000564,TO:0000557,A secondary branching of inflorescence (TO:0000142) trait which is the number of secondary branches in an inflorescence (PO:0009049).,biological_process
+seed storability,PPTO:0001340,-,Capacity of a seed to emerge when planted after being stored during a given amount of time.,biological_process
+stomatal density on the abaxial surface,PPTO:0000909,-,"The stomatal density (stomata per unit area) on the abaxial leaf surface (Daba, number/mm2) was counted at 500 × magnification and repeated in five impressions from each of leaf using a scanning electron microscope (Hitachi TM3030, Tokyo, Japan).",biological_process
+stomatal density on the adaxial surface,PPTO:0000905,-,"The stomatal density (stomata per unit area) on the adaxial leaf surface (Dada, number/mm2) was counted at 500 × magnification and repeated in five impressions from each of leaf using a scanning electron microscope (Hitachi TM3030, Tokyo, Japan).",biological_process
+stomatal size on the abaxial surface,PPTO:0000912,-,"The S values on the abaxial leaf surface (Sada, μm2) was calculated based on the assumption that stomata are elliptical in shape, with their major axis equal to L and their minor axis equal to W.",biological_process
+stomatal size on the adaxial surface,PPTO:0000908,-,"The S values on the adaxial leaf surface (Sada, μm2) was calculated based on the assumption that stomata are elliptical in shape, with their major axis equal to L and their minor axis equal to W.",biological_process
+water use efficiency,PPTO:0000462,TO:0001017,As determined by the ratio of photosynthetic rate to transpiration rate.,biological_process
+12-hydroxy jasmonoyl-isoleucine content,PPTO:0000205,-,The total 12-hydroxy jasmonoyl-isoleucine content measured in a plant or a plant part.,biochemical
+12-oxo-phyto-dienoic acid content,PPTO:0000206,-,The total 12-oxo-phyto-dienoic acid content content measured in a plant or a plant part.,biochemical
+albumin content,PPTO:0000671,-,The contents of albumin measured in a plant or a plant part.,biochemical
+alpha-tocopherol content,PPTO:0000584,-,The alpha-tocopherol content in a plant or a plant part.,biochemical
+amylopectin percent,PPTO:0000585,-,The percent of amylopectin content in the plant or plant part.,biochemical
+amylose 1 (true amylose chains) percent,PPTO:0000678,-,The percent of amylose 1(true amylose chains) content in a plant structure.,biochemical
+amylose 2 (long chain amylopectin) percent,PPTO:0000679,-,The percent of amylose 2(long chain amylopectin) content in the plant or plant part.,biochemical
+amylose content,PPTO:0000207,TO:0000196,A polysaccharide content trait (TO:0006007) which is the amount of amylose (CHEBI:28102) in a plant structure (PO:0009011).,biochemical
+amylose percent,PPTO:0000586,-,The percent of amylose content in a plant structure.,biochemical
+anthocyanin content,PPTO:0000483,TO:0000071,The anthocyanin content in a plant or plant part.,biochemical
+arachidic acid content,PPTO:0000960,-,Measures the arachidic acid content in a plant or plant part.,biochemical
+arsenic accumulation,PPTO:0000323,-,The accumulation concentration of arsenic in a plant part.,biochemical
+arsenic content ratio,PPTO:0000947,-,The concentration of total As in the flag leaf (FL-As) and in the cargo grain (CG-As) was measured and the CG-As/FL-As ratio (Ratio) calculated.,biochemical
+arsenic content trait,PPTO:0000883,TO:0006054,A mineral and ion content trait (TO:0000465) which is the arsenic cation (CHEBI:35829) composition in a plant structure (PO:0009011).,biochemical
+carbohydrate content,PPTO:0000549,TO:0000291,A metabolite content trait (TO:0000281) which is the amount of carbohydrate (CHEBI:16646) in a plant structure (PO:0009011).,biochemical
+carbon/nitrogen ratio,PPTO:0000923,-,"The C/N ratio, which reflects the relative strength of C and N metabolism, is useful for evaluating the metabolic balance between C and N and the growth vigor in crop plants.",biochemical
+cellulose content,PPTO:0000105,TO:0000993,A carbohydrate content trait (TO:0000291) which is the amount of cellulose (CHEBI:62968) in a plant structure (PO:0009011).,biochemical
+chlorophyll a content,PPTO:0000291,TO:0000293,Measures the chlorophyll-a (Chl-a) content in a green tissue. It is a type of chlorophyll present as green pigment in plants.,biochemical
+chlorophyll b content,PPTO:0000292,TO:0000295,Measures the chlorophyll-b (Chl-b) content in a green tissue. It is a type of chlorophyll present as green pigment in plants.,biochemical
+chlorophyll content,PPTO:0000214,TO:0000495,Measures the chlorophyll content in a green tissue. Includes both chlorophyll-a and chlorophyll-b. Chlorophyll is the green pigment found in plants.,biochemical
+chlorophyll ratio,PPTO:0000298,TO:0000298,Measures the a-a to chlorophyll-b content ratio in a green tissue. Chlorophyll is the green pigment found in plants.,biochemical
+copper content trait,PPTO:0000581,TO:0020092,A mineral and ion content trait (TO:0000465) which is the copper cation (CHEBI:23378) composition in a plant structure (PO:0009011).,biochemical
+dihydrojasmonic acid content,PPTO:0000220,-,The total dihydrojasmonic acid content measured in a plant or a plant part.,biochemical
+fermentable sugar content,PPTO:0001318,-,Fermentable sugar content.,biochemical
+ferulic acid content,PPTO:0000569,TO:0000675,"Amount of ferulic acid content determined in a given plant part. Ferulic acid is an antioxidant which neutralizes free radicals (superoxide, nitric oxide and hydroxyl radical) which could cause oxidative damage of cell membranes and DNA. Ferulic acid helps to prevent damage to the cells caused by ultraviolet light.",biochemical
+flavonoid content,PPTO:0000548,TO:0000290,A phytochemical compound content trait (TO:0000674) which is the amount of flavonoid (CHEBI:47916) in a plant structure (PO:0009011).,biochemical
+flavonoid leaf content,PPTO:0000224,-,A phytochemical compound content trait (TO:0000674) which is the amount of flavonoid (CHEBI:47916) in leaf.,biochemical
+free phenolic acid activity,PPTO:0000608,-,A biochemical trait which is a quality of an bound phenolic acid reaction.,biochemical
+fructose content,PPTO:0000578,TO:0006005,Amount of fructose present in the plant or plant part.,biochemical
+gel consistency,PPTO:0000225,TO:0000211,Scored by gel consistency type in mm.,biochemical
+gelatinization temperature,PPTO:0000226,TO:0000462,"Is an indication of gelatinization temperature. Observed by placing six milled-grains/kernels in 10ml 1.7% KOH in a shallow container and arrange them so that they do not touch. Let them stand for 23hrs at 30C temperature and score for spreading. Measure for Alkali digestion is inversely proportional to the gelatinization temperature, e.g. if alkali digestion is low, the gelatinization temperature is high.",biochemical
+glucose content,PPTO:0000114,TO:0000300,Amount of glucose present in the plant or plant part.,biochemical
+grain as concentrations,PPTO:0000611,-,A arsenic content which is the concentration of cadmium in grain.,biochemical
+grain carbon content,PPTO:0000882,-,A carbon content trait (TO:0000466) which is the amount of carbon (CHEBI:27594) in a caryopsis fruit (PO:0030104).,biochemical
+grain cd concentrations,PPTO:0000612,-,A cadminm content which is the concentration of cadmium in grain.,biochemical
+grain cobalt concentration,PPTO:0000889,-,A cobalt content which is the concentration of cobalt in grain.,biochemical
+grain cuprum concentration,PPTO:0000890,-,A cuprum content which is the concentration of cuprum in grain.,biochemical
+grain kalium concentrations,PPTO:0000891,-,A kalium content which is the concentration of kalium in grain.,biochemical
+grain manganese concentrations,PPTO:0000927,-,A managanese content which is the concentration of nickel in grain.,biochemical
+grain molybdenum concentration,PPTO:0000892,-,A molybdenum content which is the concentration of molybdenum in grain.,biochemical
+grain nickel concentration,PPTO:0000895,-,A nickel content which is the concentration of nickel in grain.,biochemical
+grain nitrogen content,PPTO:0000881,-,A nitrogen content trait (TO:0020093) which is the amount of nitrogen (CHEBI:51143) in a caryopsis fruit (PO:0030104).,biochemical
+grain pb concentrations,PPTO:0000613,-,A lead content which is the concentration of cadmium in grain.,biochemical
+grain potassium concentration,PPTO:0000896,-,A potassium content which is the concentration of nickel in grain.,biochemical
+grain rubidium concentration,PPTO:0000893,-,A rubidium content which is the concentration of rubidium in grain.,biochemical
+grain selenium concentrations,PPTO:0000929,-,A selenium content which is the concentration of nickel in grain.,biochemical
+grain silica concentration,PPTO:0001321,-,A silica content which is the concentration of silica in grain.,biochemical
+grain strontium concentration,PPTO:0000894,-,A strontium content which is the concentration of strontium in grain.,biochemical
+iron concentration,PPTO:0000358,TO:0006049,An iron content (TO:0020089) which is the concentration of iron cation (CHEBI:24875) in a plant structure (PO:0009011).,biochemical
+iron uptake,PPTO:0000945,-,The absorption of iron is a variable and dynamic process.,biochemical
+jasmonoyl-alanine content,PPTO:0000235,-,The total jasmonoyl-alanine content measured in a plant or a plant part.,biochemical
+jasmonoyl-isoleucine content,PPTO:0000236,-,The total jasmonoyl-isoleucine content measured in a plant or a plant part.,biochemical
+jasmonoyl-phenylalanine content,PPTO:0000237,-,The total jasmonoyl-phenylalanine content measured in a plant or a plant part.,biochemical
+jasmonoyl-valine content,PPTO:0000238,-,The total jasmonoyl-valine content measured in a plant or a plant part.,biochemical
+leaf water content,PPTO:0001092,-,Leaf water content was calculated as previously described formula; WC % = [(FB − DB)/FB] × 100 .,biochemical
+lignin content,PPTO:0000121,TO:0000731,Measures the lignin content in a plant or plant part.,biochemical
+linolenic acid concentration,PPTO:0000513,-,The linolenic acid concentration of the seeds (% of total fatty acid) .,biochemical
+medium-chain amylopectin percent,PPTO:0000680,-,The percent of medium-chain amylopectin content in the plant or plant part.,biochemical
+mixed-linkage β-glucan content,PPTO:0001326,-,The MLG content was measured indirectly by subtracting the amount of starch in samples from the total noncellulosic glucose content.,biochemical
+molybdenum content,PPTO:0000579,TO:0006056,A mineral and ion content trait (TO:0000465) which is the molybdenum cation (CHEBI:37239) composition in a plant structure (PO:0009011).,biochemical
+myristic acid content,PPTO:0000959,-,Measures the myristic acid content in a plant or plant part.,biochemical
+"n', n''-di-p-coumaroyl spermidine",PPTO:0000626,-,"The content of N', N''-di-p-coumaroyl spermidine in a plant or a plant part.",biochemical
+"n', n''-diferuloyl spermidine",PPTO:0000625,-,"The content of N', N''-diferuloyl spermidine in a plant or a plant part.",biochemical
+"n', n''-disinapoyl spermidine",PPTO:0000627,-,"The content of N', N''-disinapoyl spermidine in a plant or a plant part.",biochemical
+"n', n''-p-coumaroyl, feruloyl spermidine",PPTO:0000628,-,"The content of N', N''-p-coumaroyl, feruloyl spermidine in a plant or a plant part.",biochemical
+n-caffeoyl spermidine,PPTO:0000629,-,The content of N-caffeoyl spermidine in a plant or a plant part.,biochemical
+n-p-coumaroyl spermidine,PPTO:0000631,-,The content of N-p-coumaroyl spermidine in a plant or a plant part.,biochemical
+nitrogen uptake,PPTO:0000946,-,The absorption of nitrogen is a variable and dynamic process.,biochemical
+oleic acid content,PPTO:0000170,TO:0005002,The oleic acid content in the essential oils present in or extracted from a plant or the plant part such as seed.,biochemical
+p_coumaric acid content,PPTO:0000634,-,Amount of p_coumaric acid content determined in a given plant part.,biochemical
+palmitic acid content,PPTO:0000884,TO:1000075,"A fatty acid content (TO:0000604) which is the amount of a straight-chain, sixteen-carbon, saturated long-chain fatty acid in a plant structure.",biochemical
+phenolic compound content,PPTO:0000580,TO:0020076,"Amount of phenolics present in the plant part, whole plant or product.",biochemical
+phosphorus concentration,PPTO:0000968,TO:0006045,A phosphorus content (TO:0001024) which is the concentration of phosphorus (CHEBI:26082) in some plant structure (PO:0009011).,biochemical
+phosphorus uptake,PPTO:0000875,TO:0000511,The total phosphorus ion uptake measured in a plant or a plant part.,biochemical
+phytic acid content,PPTO:0000933,-,Phytic acid (PA) is the primary phosphorus (P) storage compound in the seeds of cereals and legumes.,biochemical
+plant water content,PPTO:0001328,-,Plant water content changes as a result of drought stress can be quantified.,biochemical
+potassium concentration,PPTO:0000279,TO:0000513,The total potassium ion concentration measured in a plant or a plant part or plant extract.,biochemical
+predicted glycemic index,PPTO:0001329,-,The predicted glycemic index (PGI) is estimated by in-vitro enzymatic action of starch digestion leads to hydrolysis.,biochemical
+protein content,PPTO:0000257,TO:0000598,The total protein content measured in a plant or a plant part.,biochemical
+relative chlorophyll content,PPTO:0000199,TO:0001016,The relative chlorophyll content of the plant determined after a given treatment as compared to the one determined under normal conditions.,biochemical
+relative crop growth rate,PPTO:0000646,-,The relative rate of dry matter production per unit area after a given treatment as compared to the one determined under normal conditions.,biochemical
+relative deduction of shoot k+ content,PPTO:0000647,-,Relative deduction of shoot K+ content at treatments compared to control.,biochemical
+relative deduction of shoot na+ content,PPTO:0000648,-,Relative deduction of shoot Na+ content at treatments compared to control.,biochemical
+seed calcium concentration,PPTO:0000998,-,A calcium content which is the concentration of calcium in seed.,biochemical
+shoot system manganese content,PPTO:0000281,TO:1000064,A manganese content trait (TO:0020091) which is the manganese cation (CHEBI:29035) composition in a shoot system (PO:0009006).,biochemical
+shoot system sodium content,PPTO:0000534,TO:0020004,A sodium content trait (TO:0000608) which is the sodium cation (CHEBI:29101) composition in a shoot system (PO:0009006).,biochemical
+short-chain amylopectin percent,PPTO:0000681,-,The percent of short-chain amylopectin content in the plant or plant part.,biochemical
+sinapic acid content,PPTO:0000666,-,Amount of sinapic acid content determined in a given plant part.,biochemical
+sodium concentration,PPTO:0000282,TO:0000526,The total sodium ion concentration measured in a given volume of a plant or a plant part or plant extract.,biochemical
+sodium to potassium content ratio,PPTO:0000258,TO:0000525,The ratio of total sodium to potassium ion content measured in a plant or a plant part.,biochemical
+squalene content,PPTO:0000926,-,"Squalene, which is beneficial to human health, is contained in rice that is consumed by a large population.",biochemical
+starch content,PPTO:0000130,TO:0000696,Amount of starch present in the plant or plant part.,biochemical
+stearic acid content,PPTO:0000174,TO:0005003,The stearic acid content in the essential oils present in or extracted from a plant or the plant part such as seed.,biochemical
+stem starch content,PPTO:0000668,-,Starch content in the stem.,biochemical
+stem sucrose content,PPTO:0000669,-,Sucrose content in the stem.,biochemical
+sulfur content,PPTO:0000537,TO:0006046,A mineral and ion content trait (TO:0000465) which is the sulfur cation (CHEBI:29832) composition in a plant structure (PO:0009011).,biochemical
+the contents of globulin,PPTO:0000672,-,The contents of globulin measured in a plant or a plant part.,biochemical
+the contents of glutelin,PPTO:0000673,-,The contents of glutelin measured in a plant or a plant part.,biochemical
+the contents of prolamin,PPTO:0000674,-,The contents of prolamin measured in a plant or a plant part.,biochemical
+the soil-plant analysis development value,PPTO:0000300,-,A parameter that can indicate the relative chlorophyll content.,biochemical
+very long chain fatty acid content,PPTO:0000961,-,Measures the very long chain fatty acid content in a plant or plant part.,biochemical
+water content of grain,PPTO:0000918,-,The water content of grain.,biochemical
+zinc concentration,PPTO:0000464,TO:0006053,A zinc content (TO:0020090) which is the concentration of zinc (CHEBI:63056) in some plant structure (PO:0009011).,biochemical

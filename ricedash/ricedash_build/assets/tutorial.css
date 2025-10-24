@@ -1,0 +1,30 @@
+/* tutorial.css — light, modern layout with sticky right TOC */
+:root{
+  --text:#222;
+  --muted:#6b7280;
+  --border:#e5e7eb;
+  --accent:#2563eb;
+  --bg:#ffffff;
+  --maxw: 1100px;
+}
+body{color:var(--text); background:var(--bg);}
+.tut-wrap{max-width:var(--maxw); margin:0 auto; padding: 24px 16px;}
+.tut-grid{display:grid; grid-template-columns: 1fr 260px; gap:28px;}
+.tut-main{min-width:0;}
+.tut-side{position:sticky; top:24px; align-self:start; height:max-content; border-left:1px solid var(--border); padding-left:16px;}
+.tut-side h4{margin:0 0 8px 0; font-size:14px; color:var(--muted); text-transform:uppercase; letter-spacing:.06em;}
+.tut-side a{display:block; color:var(--accent); text-decoration:none; padding:6px 0; font-size:14px;}
+.tut-side a:hover{text-decoration:underline;}
+.tut-main h1{font-size:36px; margin:.2em 0 .4em;}
+.tut-main h2{font-size:26px; margin:1.4em 0 .5em;}
+.tut-main p{line-height:1.7;}
+.tut-main img{max-width:100%; height:auto; border:1px solid var(--border); border-radius:8px;}
+blockquote{color:var(--muted); border-left:3px solid var(--border); margin:16px 0; padding:8px 16px;}
+hr{border:none; border-top:1px solid var(--border); margin:24px 0;}
+/* responsive */
+@media (max-width: 980px){
+  .tut-grid{grid-template-columns: 1fr;}
+  .tut-side{position:static; border-left:none; padding-left:0;}
+}
+html { scroll-behavior: smooth; }
+.tut-main img { max-width: 800px !important; width: 100%; height: auto; display: block; margin: 12px auto; }

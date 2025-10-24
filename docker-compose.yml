@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  dash:
+    container_name: ricedash_v2
+    image: ricedash_v2
+    build:
+      context: ./ricedash/
+      dockerfile: dockfile
+    ports:
+      - "11028:8000"
+    volumes:
+      - ./ricedash/ricedash_build:/ricedash_build
+      - ./:/data/docker_packages/RiceDash
+    command: gunicorn --bind 0.0.0.0:8000 --workers 2 --log-level debug index:server
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "11029:80"
+    volumes:
+      - ./nginx/nginx-setup.conf:/etc/nginx/conf.d/nginx-setup.conf
+    depends_on:
+      - dash

@@ -1,0 +1,477 @@
+Sr.,Entry_No.,Variety Name in English,NCBI Biosample ID,Ecotype,Origin,Variety Group,Seed Storage No.
+1,RWG-001,Namseon 52,SAMEA4999314,Temperate japonica,KOR,Bred,IT 005288
+2,RWG-002,Suweon 159,SAMEA4999298,Temperate japonica,KOR,Bred,IT 007099
+3,RWG-003,Suweon 255,SAMN12714206,Indica,KOR,Bred,IT 007226
+4,RWG-004,Suwon 301,SAMEA4999469,Temperate japonica,KOR,Bred,IT 123124
+5,RWG-005,Suweon 347,SAMN12714207,Indica,KOR,Bred,IT 192004
+6,RWG-006,CT9993-5-10-1-M,SAMN16203520,Indica,COL,Bred,K046490
+7,RWG-007,Rathal,SAMEA4999450,Admixture,LKA,Bred,IT 248043
+8,RWG-008,Tchampa,SAMEA4999421,Aus,IRN,Bred,K046514
+9,RWG-009,Jejubukjeju-2002-99,SAMEA4999437,Temperate japonica,KOR,Weedy,IT 220821
+10,RWG-010,Jejubukjeju-2002-171,SAMEA4999151,Indica,KOR,Weedy,IT 220865
+11,RWG-011,Jejubukjeju-2002-340,SAMEA4999178,Temperate japonica,KOR,Weedy,IT 220982
+12,RWG-012,Jejunamjeju-2002-420,SAMEA4999344,Temperate japonica,KOR,Weedy,IT 221031
+13,RWG-013,Jejubukjeju-2002-521,SAMEA4999379,Indica,KOR,Weedy,IT 221094
+14,RWG-014,Incheonkanghwasujip-16,SAMEA4999374,Temperate japonica,KOR,Weedy,K019957
+15,RWG-015,Muando,SAMEA4999311,Temperate japonica,KOR,Landrace,IT 006116
+16,RWG-016,Dadajo  ,SAMEA4999350,Temperate japonica,KOR,Landrace,IT 005679
+17,RWG-017,Okcheong,SAMEA4999287,Temperate japonica,KOR,Landrace,IT 227933
+18,RWG-018,Sando,SAMEA4999326,Tropical japonica,KOR,Landrace,IT 006556
+19,RWG-019,Batnarak,SAMEA4999280,Tropical japonica,KOR,Landrace,IT 010340
+20,RWG-020,Orido,SAMEA4999276,Temperate japonica,KOR,Landrace,IT 007630
+21,RWG-021,Saducho,SAMEA4999263,Indica,KOR,Landrace,IT 006538
+22,RWG-022,Seon,SAMEA4999234,Indica,KOR,Landrace,IT 226487
+23,RWG-023,Hanyangjo,SAMEA4999208,Aus,KOR,Landrace,IT 009060
+24,RWG-024,Inbujido,SAMEA4999235,Temperate japonica,KOR,Landrace,IT 008196
+25,RWG-025,Beobpanhwa,SAMEA4999236,Temperate japonica,KOR,Landrace,IT 006410
+26,RWG-026,Janmochal,SAMEA4999172,Temperate japonica,KOR,Landrace,IT 227934
+27,RWG-027,Pyodo,SAMEA4999171,Temperate japonica,KOR,Landrace,IT 008999
+28,RWG-028,Yuljojo,SAMEA4999345,Temperate japonica,KOR,Landrace,K026177
+29,RWG-029,Samgyeongjo,SAMEA4999343,Temperate japonica,KOR,Landrace,IT 006596
+30,RWG-030,Baekgokna,SAMEA4999133,Indica,KOR,Landrace,IT 006303
+31,RWG-031,Mongdonjaerae,SAMEA4999111,Admixture,KOR,Landrace,IT 227937
+32,RWG-032,Agbede,SAMEA4999075,Tropical japonica,NGA,Bred,IT 000041
+33,RWG-033,Anbaw C7  ,SAMEA4999156,Temperate japonica,MMR,Bred,IT 000114
+34,RWG-034,Bala,SAMN12714208,Indica,IND,Bred,K046522
+35,RWG-035,Bellardone,SAMEA4999148,Temperate japonica,FRA,Bred,IT 000314
+36,RWG-036,Chiem Chanh,SAMN16203521,Indica,VNM,Landrace,IT 000694
+37,RWG-037,Dharial,SAMEA4999252,Aus,NPL,Bred,IT 001083
+38,RWG-038,Dular,SAMEA4999270,Aus,IND,Bred,K046515
+39,RWG-039,IR38,SAMEA4999213,Indica,PHL,Bred,IT 001907
+40,RWG-040,Magnolia,SAMEA4999409,Tropical japonica,USA,Landrace,IT 002920
+41,RWG-041,Mala ,SAMN12714209,Indica,BGD,Bred,IT 002938
+42,RWG-042,Mushkan,SAMEA4999354,Aromatic,PAK,Bred,IT 003068
+43,RWG-043,Pukhi,SAMEA4999145,Aus,PAK,Bred,IT 003482
+44,RWG-044,Red Rice,SAMN12714210,Indica,IRN,Landrace,IT 003553
+45,RWG-045,Tun Sart,SAMEA4999128,Tropical japonica,VNM,Bred,IT 004483
+46,RWG-046,Victoria F.A,SAMEA4999192,Temperate japonica,ARG,Bred,IT 004529
+47,RWG-047,Bai Cyue Hwa Lue,SAMEA4999100,Indica,TWN,Landrace,IT 006305
+48,RWG-048,Yangmyeon,SAMEA4999097,Indica,TWN,Landrace,IT 007573
+49,RWG-049,Belle Patna,SAMN12714211,Indica,USA,Bred,IT 009836
+50,RWG-050,Pyeongbuk 3 ,SAMEA4999294,Temperate japonica,PRK,Bred,IT 113470
+51,RWG-051,Yupul,SAMEA4999461,Tropical japonica,LBR,Bred,IT 152647
+52,RWG-052,Liman Belozernij,SAMEA4999432,Temperate japonica,RUS,,IT 195079
+53,RWG-053,Kagi,SAMEA4999430,Aus,IND,,IT 211179
+54,RWG-054,Hatadani,SAMN12714212,Indica,LKA,,IT 211182
+55,RWG-055,Tai Mochito,SAMEA4999464,Tropical japonica,THA,,IT 211283
+56,RWG-056,Waikyakushi,SAMEA4999419,Indica,TWN,,IT 211285
+57,RWG-057,Upland,SAMEA4999406,Tropical japonica,NGA,Bred,IT 212310
+58,RWG-058,Newrex,SAMEA4999401,Tropical japonica,USA,Bred,IT 212313
+59,RWG-059,Doan Guang Hwa Lue ,SAMEA4999364,Temperate japonica,TWN,Landrace,901177
+60,RWG-060,Wu Cyue,SAMEA4999331,Indica,TWN,Landrace,901180
+61,RWG-061,Binato,SAMEA4999324,Indica,PHL,Landrace,901500
+62,RWG-062,Avangard,SAMEA4999346,Temperate japonica,UZB,,IT 216884
+63,RWG-063,Debzera,SAMEA4999293,Temperate japonica,UZB,,IT 217508
+64,RWG-064,Hawm Supan,SAMEA4999319,Indica,THA,,K019941
+65,RWG-065,Ssalbyeo 22,SAMEA4999265,Temperate japonica,KOR,Landrace,IT 217448
+66,RWG-066,Urasan,SAMEA4999357,Tropical japonica,JPN,Landrace,901640
+67,RWG-067,Xi Gua Bai,SAMN16203522,Indica,CHN,,IT 110057
+68,RWG-068,Yung Yuen Chuen Zim,SAMEA4999452,Indica,CHN,Bred,IT 113788
+69,RWG-069,Keng Chi Ju,SAMEA4999455,Temperate japonica,CHN,Landrace,IT 114292
+70,RWG-070,Qua 77 Wuan-Dau ,SAMN16203523,Indica,CHN,,IT 114588
+71,RWG-071,Chih-Tsao-He,SAMN16203524,Indica,CHN,,IT 117610
+72,RWG-072,Hsiang-Ha-Tsan,SAMN16203525,Indica,CHN,,IT 117643
+73,RWG-073,Cheongdo-Donggok-4,SAMEA4999112,Indica,KOR,Weedy,IT 168380
+74,RWG-074,Golyeong-2,SAMEA4999150,Temperate japonica,KOR,Weedy,IT 168699
+75,RWG-075,Golyeong-6,SAMEA4999396,Temperate japonica,KOR,Weedy,IT 168703
+76,RWG-076,Danyang-7,SAMEA4999338,Temperate japonica,KOR,Weedy,IT 169001
+77,RWG-077,Danyang-38,SAMEA4999351,Temperate japonica,KOR,Weedy,IT 169032
+78,RWG-078,Hwaseong-5,SAMEA4999356,Temperate japonica,KOR,Weedy,IT 169092
+79,RWG-079,Gou 405,SAMEA4999315,Temperate japonica,JPN,Bred,IT 202142
+80,RWG-080,Baeksami,SAMEA4999092,Temperate japonica,CHN,Landrace,IT 204549
+81,RWG-081,Akaine,SAMEA4999080,Tropical japonica,JPN,Landrace,IT 211334
+82,RWG-082,Syare-61-1-B,SAMEA4999093,Temperate japonica,KOR,Weedy,IT 213594
+83,RWG-083,Syale-94-1-B,SAMEA4999264,Temperate japonica,KOR,Weedy,IT 213675
+84,RWG-084,Syale-163-1-B,SAMEA4999251,Temperate japonica,KOR,Weedy,IT 213678
+85,RWG-085,Milyang 50,SAMN12714213,Indica,KOR,Bred,IT 006235
+86,RWG-086,Yeongpung,SAMN12714214,Indica,KOR,Bred,IT 101984
+87,RWG-087,Iri 336 ,SAMEA4999195,Temperate japonica,KOR,Bred,IT 151559
+88,RWG-088,Mihyang ,SAMEA4999198,Temperate japonica,KOR,Bred,IT 196276
+89,RWG-089,Moroberekan,SAMEA4999185,Tropical japonica,GIN,Bred,K046503
+90,RWG-090,Jejubukjeju-2002-115,SAMEA4999163,Tropical japonica,KOR,Weedy,IT 220830
+91,RWG-091,Jejubukjeju-2002-550,SAMEA4999127,Temperate japonica,KOR,Weedy,IT 221116
+92,RWG-092,Jejubukjeju-2002-561,SAMEA4999116,Temperate japonica,KOR,Weedy,K020571
+93,RWG-093,Huindadak,SAMEA4999119,Temperate japonica,KOR,Landrace,IT 009264
+94,RWG-094,Jotajo,SAMEA4999191,Temperate japonica,KOR,Landrace,IT 008580
+95,RWG-095,Pocheon Jangmang Me,SAMEA4999141,Temperate japonica,KOR,Landrace,IT 008996
+96,RWG-096,Dongo,SAMEA4999179,Temperate japonica,KOR,Landrace,IT 005970
+97,RWG-097,Seorianjeunbaengi ,SAMEA4999095,Temperate japonica,KOR,Landrace,IT 006663
+98,RWG-098,Neul,SAMEA4999094,Tropical japonica,KOR,Landrace,IT 010275
+99,RWG-099,Jwiippari ,SAMEA4999071,Temperate japonica,KOR,Landrace,IT 008700
+100,RWG-100,Jeongjonghwa,SAMEA4999382,Temperate japonica,KOR,Landrace,IT 008408
+101,RWG-101,Sodujo,SAMEA4999176,Tropical japonica,KOR,Landrace,IT 010417
+102,RWG-102,Sando,SAMEA4999131,Tropical japonica,KOR,Landrace,IT 010375
+103,RWG-103,Bori,SAMEA4999199,Temperate japonica,KOR,Landrace,IT 006424
+104,RWG-104,Naengjo,SAMEA4999103,Temperate japonica,KOR,Landrace,K026193
+105,RWG-105,Bikom,SAMEA4999129,Admixture,NGA,Bred,IT 000343
+106,RWG-106,British Honduras Creole,SAMEA4999087,Tropical japonica,HND,Bred,IT 000461
+107,RWG-107,Cartuna,SAMEA4999083,Tropical japonica,IND,Bred,IT 000560
+108,RWG-108,Sahak,SAMEA4999142,Aus,PRI,Bred,IT 003703
+109,RWG-109,Taichung-Woo-Tsan,SAMEA4999146,Indica,TWN,Bred,IT 004246
+110,RWG-110,Zilanica,SAMEA4999466,Aromatic,RUS,Bred,IT 004683
+111,RWG-111,Xao Bai Mang Sue Dao,SAMEA4999425,Temperate japonica,TWN,Landrace,IT 006737
+112,RWG-112,Di Jiao Wu Jian,SAMEA4999478,Indica,TWN,Landrace,IT 008302
+113,RWG-113,Spin Mere,SAMEA4999405,Aus,AFG,,IT 152642
+114,RWG-114,Norin 22,SAMEA4999424,Temperate japonica,JPN,Bred,IT 005585
+115,RWG-115,Ssalbyeo 16,SAMEA4999397,Temperate japonica,KOR,Landrace,IT 006587
+116,RWG-116,Nian Chi Shi,SAMEA4999403,Indica,CHN,,IT 109904
+117,RWG-117,Sung Pan Tao ,SAMEA4999376,Temperate japonica,CHN,Landrace,IT 114332
+118,RWG-118,Tsong-Gan-Shun,SAMEA4999175,Indica,CHN,,IT 114620
+119,RWG-119,San-Li-Shun,SAMEA4999137,Indica,CHN,Bred,IT 114771
+120,RWG-120,Yang-Sha-Tsan ,SAMEA4999359,Indica,CHN,,IT 117766
+121,RWG-121,Chungdo 23,SAMN16203526,Indica,KOR,Weedy,IT 168296
+122,RWG-122,Chungdo Hwayang 12,SAMN16203527,Indica,KOR,Weedy,IT 168374
+123,RWG-123,Chungdo Hwayang 14,SAMN16203528,Indica,KOR,Weedy,IT 168376
+124,RWG-124,Sungju 3,SAMEA4999250,Indica,KOR,Weedy,IT 168409
+125,RWG-125,Jangsung 1,SAMN16203529,Indica,KOR,Weedy,IT 168469
+126,RWG-126,Soonchun 5,SAMN16203530,Indica,KOR,Weedy,IT 168483
+127,RWG-127,Daegu Damti 6-2,SAMEA4999422,Temperate japonica,KOR,Weedy,IT 168551
+128,RWG-128,Guechang 15,SAMEA4999428,Temperate japonica,KOR,Weedy,IT 168592
+129,RWG-129,Danyang 9,SAMEA4999410,Temperate japonica,KOR,Weedy,IT 169003
+130,RWG-130,Chungsongaengmi 4,SAMEA4999184,Temperate japonica,KOR,Weedy,IT 175218
+131,RWG-131,Suhyeonghando,SAMEA4999152,Indica,CHN,,IT 204592
+132,RWG-132,Xiao zao huang,SAMEA4999220,Tropical japonica,CHN,,IT 211220
+133,RWG-133,Namseon 34,SAMEA4999355,Temperate japonica,KOR,Bred,IT 005275
+134,RWG-134,Namseon 126,SAMEA4999342,Temperate japonica,KOR,Bred,IT 005362
+135,RWG-135,Milyang 88,SAMEA4999328,Temperate japonica,KOR,Bred,IT 203682
+136,RWG-136,Dudo,SAMEA4999307,Temperate japonica,KOR,Landrace,IT 005980
+137,RWG-137,IR40,SAMEA4999296,Indica,PHL,Bred,IT 001908
+138,RWG-138,Jinbu,SAMEA4999286,Temperate japonica,KOR,Bred,IT 212549
+139,RWG-139,Palgong,SAMEA4999385,Temperate japonica,KOR,Bred,IT 191754
+140,RWG-140,Hopyung,SAMEA4999274,Temperate japonica,KOR,Bred,IT 191914
+141,RWG-141,Dongjinchal,SAMEA4999302,Temperate japonica,KOR,Bred,IT 196275
+142,RWG-142,Gopum,SAMEA4999243,Temperate japonica,KOR,Bred,IT 214884
+143,RWG-143,Unkwang  ,SAMEA4999243,Temperate japonica,KOR,Bred,IT 217814
+144,RWG-144,Haiami,SAMEA4999215,Temperate japonica,KOR,Bred,IT 235304
+145,RWG-145,Samkwang  ,SAMN12714215,Temperate japonica,KOR,Bred,IT 214880
+146,RWG-146,Hopum  ,SAMEA4999241,Temperate japonica,KOR,Bred,IT 217826
+147,RWG-147,Chilbo,SAMEA4999170,Temperate japonica,KOR,Bred,IT 284608
+148,RWG-148,Ilpum  ,SAMEA4999162,Temperate japonica,KOR,Bred,IT 191781
+149,RWG-149,Chucheong  ,SAMEA4999375,Temperate japonica,JPN,Bred,IT 000070
+150,RWG-150,Junam,SAMEA4999125,Temperate japonica,KOR,Bred,IT 210050
+151,RWG-151,Sindongjin,SAMEA4999104,Temperate japonica,KOR,Bred,IT 212522
+152,RWG-152,Odae,SAMEA4999113,Temperate japonica,KOR,Bred,IT 154882
+153,RWG-153,Namil,SAMN12714216,Temperate japonica,KOR,Bred,IT 251693
+154,RWG-154,Hwaseong,SAMEA4999076,Temperate japonica,KOR,Bred,IT 143771
+155,RWG-155,Boramchan,SAMEA4999084,Temperate japonica,KOR,Bred,IT 262212
+156,RWG-156,Hwayeong ,SAMN12714217,Temperate japonica,KOR,Bred,IT 191811
+157,RWG-157,Dongjin  ,SAMEA4999279,Temperate japonica,KOR,Bred,IT 163355
+158,RWG-158,Nagdong  ,SAMEA4999291,Temperate japonica,KOR,Bred,IT 006182
+159,RWG-159,Giho  ,SAMEA4999223,Temperate japonica,KOR,Bred,IT 009860
+160,RWG-160,Hwacheong,SAMEA4999445,Temperate japonica,KOR,Bred,IT 112423
+161,RWG-161,Jopyeong,SAMEA4999470,Temperate japonica,KOR,Bred,-
+162,RWG-162,Chinnong,SAMEA4999392,Temperate japonica,KOR,Bred,-
+163,RWG-163,Hanareum,SAMN12714218,Indica,KOR,Bred,IT 214856
+164,RWG-164,Dasan,SAMEA4999158,Indica,KOR,Bred,IT 192044
+165,RWG-165,Milyang 23,SAMEA4999154,Indica,KOR,Bred,IT 006202
+166,RWG-166,Samgang,SAMEA4999126,Indica,KOR,Bred,IT 163351
+167,RWG-167,Nokyang,SAMN12714219,Tropical japonica,KOR,Bred,IT 235303
+168,RWG-168,Tongil,SAMEA4999102,Indica,KOR,Bred,IT 008927
+169,RWG-169,Unbong,SAMEA4999082,Temperate japonica,KOR,Bred,IT 195097
+170,RWG-170,Sinunbong,SAMEA4999327,Temperate japonica,KOR,Bred,-
+171,RWG-171,Sambaek,SAMEA4999312,Temperate japonica,KOR,Bred,IT 191869
+172,RWG-172,Junghwa,SAMEA4999479,Temperate japonica,KOR,Bred,IT 260473
+173,RWG-173,Geuru  ,SAMEA4999458,Temperate japonica,KOR,Bred,IT 213063 
+174,RWG-174,Inwol  ,SAMEA4999467,Temperate japonica,KOR,Bred,IT 196288 
+175,RWG-175,Sangmi,SAMEA4999436,Temperate japonica,KOR,Bred,IT 223954 
+176,RWG-176,Geumo ,SAMEA4999447,Temperate japonica,KOR,Bred,-
+177,RWG-177,Jinbuol,SAMEA4999434,Temperate japonica,KOR,Bred,IT 235774 
+178,RWG-178,Jinmi,SAMEA4999444,Temperate japonica,KOR,Bred,IT 160433
+179,RWG-179,Heugjinju  ,SAMEA4999380,Temperate japonica,KOR,Bred,IT 191964 
+180,RWG-180,Jeogjinju,SAMN12714220,Temperate japonica,KOR,Bred,IT 333049
+181,RWG-181,Naepung  ,SAMEA4999383,Temperate japonica,KOR,Bred,IT 191954 
+182,RWG-182,Donghae,SAMEA4999322,Temperate japonica,KOR,Bred,IT 191993 
+183,RWG-183,Seoan,SAMEA4999368,Temperate japonica,KOR,Bred,IT 191784
+184,RWG-184,Gancheok,SAMEA4999333,Temperate japonica,KOR,Bred,IT 251377
+185,RWG-185,Juan  ,SAMEA4999281,Temperate japonica,KOR,Bred,IT 191828 
+186,RWG-186,Yeonghae,SAMEA4999321,Temperate japonica,KOR,Bred,IT 214400
+187,RWG-187,Sobi   ,SAMEA4999370,Temperate japonica,KOR,Bred,IT 212519
+188,RWG-188,Haepyeong  ,SAMEA4999254,Temperate japonica,KOR,Bred,IT 212540 
+189,RWG-189,Sinseonchal,SAMEA4999451,Temperate japonica,KOR,Bred,IT 145265 
+190,RWG-190,Daelip 1 ,SAMEA4999227,Temperate japonica,KOR,Bred,IT 191790 
+191,RWG-191,Seolhyangchal,SAMEA4999210,Temperate japonica,KOR,Bred,K014302
+192,RWG-192,Ilmi,SAMEA4999228,Temperate japonica,KOR,Bred,IT 221719 
+193,RWG-193,Nampyeong,SAMEA4999196,Temperate japonica,KOR,Bred,IT 196266
+194,RWG-194,Gyehwa,SAMEA4999224,Temperate japonica,KOR,Bred,IT 151521 
+195,RWG-195,Yeongnam,SAMEA4999233,Temperate japonica,KOR,Bred,IT 203688 
+196,RWG-196,Yangjo,SAMEA4999358,Temperate japonica,KOR,Bred,IT 212497 
+197,RWG-197,Aranghangchal,SAMEA4999336,Temperate japonica,KOR,Bred,K007176
+198,RWG-198,Heugnam,SAMEA4999332,Temperate japonica,KOR,Bred,IT 212512 
+199,RWG-199,Goami,SAMEA4999335,Temperate japonica,KOR,Bred,IT 213236 
+200,RWG-200,Manmi,SAMEA4999249,Temperate japonica,KOR,Bred,IT 203721 
+201,RWG-201,Heugkwang  ,SAMEA4999202,Temperate japonica,KOR,Bred,IT 214882  
+202,RWG-202,Norinmochi 1 ,SAMEA4999238,Tropical japonica,JPN,Bred,IT 010258 
+203,RWG-203,Sangnambat,SAMEA4999237,Tropical japonica,KOR,Bred,IT 203686
+204,RWG-204,Anda,SAMN12714221,Indica,KOR,Bred,IT 259341 
+205,RWG-205,Taebaeg ,SAMEA4999225,Indica,KOR,Bred,IT 102311 
+206,RWG-206,Gaya ,SAMN12714222,Indica,KOR,Bred,IT 192017
+207,RWG-207,Baegyang ,SAMN12714223,Indica,KOR,Bred,IT 212486 
+208,RWG-208,Cheongcheong  ,SAMN12714224,Indica,KOR,Bred,IT 101779
+209,RWG-209,Jungwon,SAMN12714225,Indica,KOR,Bred,IT 010032 
+210,RWG-210,Nampung,SAMN12714226,Indica,KOR,Bred,IT 101994 
+211,RWG-211,Hangangchal,SAMEA4999098,Indica,KOR,Bred,IT 009844 
+212,RWG-212,Goun,SAMEA4999085,Temperate japonica,KOR,Bred,IT 218241 
+213,RWG-213,Pungmi,SAMEA4999132,Temperate japonica,KOR,Bred,IT 217983
+214,RWG-214,Boseogchal,SAMEA4999248,Temperate japonica,KOR,Bred,IT 217816
+215,RWG-215,Hanmaeum,SAMEA4999371,Temperate japonica,KOR,Bred,IT 217817 
+216,RWG-216,Hwasin 1,SAMEA4999260,Temperate japonica,KOR,Bred,IT 235272 
+217,RWG-217,Onnuri,SAMEA4999261,Temperate japonica,KOR,Bred,IT 217819 
+218,RWG-218,Gangbaek,SAMEA4999316,Temperate japonica,KOR,Bred,IT 217824 
+219,RWG-219,Hwangkeumnuri,SAMEA4999266,Temperate japonica,KOR,Bred,IT 235277 
+220,RWG-220,Dami,SAMEA4999378,Temperate japonica,KOR,Bred,IT 235278 
+221,RWG-221,Hongjinju,SAMEA4999360,Temperate japonica,KOR,Bred,IT 217316 
+222,RWG-222,Sinmyungheugchal,SAMEA4999155,Temperate japonica,KOR,Bred,IT 284609 
+223,RWG-223,Hoban,SAMEA4999120,Temperate japonica,KOR,Bred,IT 229366 
+224,RWG-224,Heugseol,SAMEA4999182,Temperate japonica,KOR,Bred,IT 218587 
+225,RWG-225,Danmi,SAMEA4999130,Temperate japonica,KOR,Bred,IT 227136 
+226,RWG-226,Nogwonchal,SAMEA4999089,Temperate japonica,KOR,Bred,IT 223077 
+227,RWG-227,Younghojinmi,SAMN16203531,Temperate japonica,KOR,Bred,IT 247766 
+228,RWG-228,Honong,SAMEA4999109,Temperate japonica,KOR,Bred,IT 262210
+229,RWG-229,Joun,SAMEA4999078,Temperate japonica,KOR,Bred,IT 223100 
+230,RWG-230,Wolbaek,SAMEA4999446,Temperate japonica,KOR,Bred,IT 227059 
+231,RWG-231,Gangchan,SAMEA4999456,Temperate japonica,KOR,Bred,IT 227052
+232,RWG-232,Shinbaeg,SAMEA4999429,Temperate japonica,KOR,Bred,IT 322324
+233,RWG-233,Geongganghongmi,SAMEA4999460,Temperate japonica,KOR,Bred,IT 247765
+234,RWG-234,Sodami,SAMEA4999449,Temperate japonica,KOR,Bred,-
+235,RWG-235,Sukwang,SAMEA4999435,Temperate japonica,KOR,Bred,-
+236,RWG-236,Seonhyangheukmi,SAMEA4999398,Temperate japonica,KOR,Bred,-
+237,RWG-237,Pungok,SAMEA4999352,Temperate japonica,KOR,Bred,IT 009015 
+238,RWG-238,Wase Gingbouzu,SAMEA4999362,Indica,JPN,Landrace,IT 216766
+239,RWG-239,Palgoeng ,SAMEA4999149,Temperate japonica,KOR,Bred,IT 008946
+240,RWG-240,Jinheung ,SAMEA4999347,Temperate japonica,KOR,Bred,IT 008727
+241,RWG-241,Milseong,SAMEA4999295,Temperate japonica,KOR,Bred,IT 006165
+242,RWG-242,Yusin   ,SAMN12714227,Indica,KOR,Bred,IT 007821
+243,RWG-243,Satbyeol,SAMN12714228,Indica,KOR,Bred,IT 008136
+244,RWG-244,Milyang 42  ,SAMEA4999318,Indica,KOR,Bred,IT 006227
+245,RWG-245,Dobong,SAMEA4999273,Temperate japonica,KOR,Bred,IT 009930
+246,RWG-246,Seolag ,SAMEA4999453,Temperate japonica,KOR,Bred,IT 195095
+247,RWG-247,Samnam  ,SAMEA4999480,Temperate japonica,KOR,Bred,IT 195090
+248,RWG-248,Seomjin ,SAMEA4999414,Temperate japonica,KOR,Bred,IT 145264
+249,RWG-249,Youngdeok,SAMEA4999426,Temperate japonica,KOR,Bred,IT 219210
+250,RWG-250,Seohae,SAMEA4999180,Temperate japonica,KOR,Bred,IT 112605
+251,RWG-251,Mimyeon,SAMEA4999187,Indica,KOR,Bred,IT 328754
+252,RWG-252,MS11,SAMN12714229,Temperate japonica,KOR,Bred,IT 275684
+253,RWG-253,Koshihikari,SAMEA4999216,Temperate japonica,JPN,Bred,IT 002752  
+254,RWG-254,Sobaeg,SAMEA4999348,Temperate japonica,KOR,Bred,IT 154881
+255,RWG-255,Sangju,SAMN12714230,Temperate japonica,KOR,Bred,IT 219211 
+256,RWG-256,Samcheon,SAMEA4999402,Temperate japonica,KOR,Bred,IT 196282 
+257,RWG-257,Munjang,SAMEA4999306,Temperate japonica,KOR,Bred,IT 223955  
+258,RWG-258,Taebong,SAMEA4999320,Temperate japonica,KOR,Bred,IT 266611
+259,RWG-259,Dunnae,SAMEA4999387,Temperate japonica,KOR,Bred,IT 191726 
+260,RWG-260,Saesangju ,SAMEA4999122,Temperate japonica,KOR,Bred,IT 212475 
+261,RWG-261,Manchu,SAMEA4999377,Temperate japonica,KOR,Bred,IT 212534 
+262,RWG-262,Nongan,SAMEA4999284,Temperate japonica,KOR,Bred,IT 191747 
+263,RWG-263,Sura,SAMEA4999221,Temperate japonica,KOR,Bred,IT 217574 
+264,RWG-264,Bonggwang,SAMEA4999219,Temperate japonica,JPN,Bred,IT 104600 
+265,RWG-265,Hwaseonchal,SAMEA4999226,Temperate japonica,KOR,Bred,IT 191829
+266,RWG-266,Dongan,SAMEA4999200,Temperate japonica,KOR,Bred,IT 212509 
+267,RWG-267,Daesan,SAMEA4999271,Temperate japonica,KOR,Bred,IT 210027 
+268,RWG-268,Nongho,SAMEA4999169,Temperate japonica,KOR,Bred,IT 210034 
+269,RWG-269,Manguem,SAMEA4999160,Temperate japonica,KOR,Bred,IT 174737 
+270,RWG-270,Saegyehwa,SAMEA4999140,Temperate japonica,KOR,Bred,IT 212536 
+271,RWG-271,Manweol,SAMN12714231,Temperate japonica,KOR,Bred,IT 213742 
+272,RWG-272,Hyangmi 1,SAMEA4999245,Indica,KOR,Bred,IT 192023
+273,RWG-273,Hwangkeumbora,SAMN12714232,Temperate japonica,KOR,Bred,IT 235275 
+274,RWG-274,Cheonga,SAMN12714233,Temperate japonica,KOR,Bred,IT 217312 
+275,RWG-275,Cheongdam,SAMN12714234,Temperate japonica,KOR,Bred,IT 217314 
+276,RWG-276,Keunseom,SAMN12714235,Indica,KOR,Bred,IT 223977 
+277,RWG-277,Saenuri,SAMEA4999138,Temperate japonica,KOR,Bred,IT 235281 
+278,RWG-278,Hwanggeumnodeul,SAMEA4999285,Temperate japonica,KOR,Bred,IT 217834 
+279,RWG-279,Cheongan,SAMEA4999313,Temperate japonica,KOR,Bred,IT 218585 
+280,RWG-280,Deuraechan,SAMEA4999411,Temperate japonica,KOR,Bred,IT 291479
+281,RWG-281,Jinbaek,SAMEA4999413,Temperate japonica,KOR,Bred,IT 235286 
+282,RWG-282,Cheongnam,SAMN12714236,Temperate japonica,KOR,Bred,-
+283,RWG-283,Suan,SAMEA4999365,Temperate japonica,KOR,Bred,IT 242637  
+284,RWG-284,Dongbo,SAMEA4999399,Temperate japonica,KOR,Bred,IT 247759
+285,RWG-285,Seolemi,SAMEA4999143,Temperate japonica,KOR,Bred,-
+286,RWG-286,Jungsaenggold,SAMEA4999174,Temperate japonica,KOR,Bred,IT 328761
+287,RWG-287,Saeilmi,SAMEA4999157,Temperate japonica,KOR,Bred,IT 318798
+288,RWG-288,Seokwang ,SAMEA4999203,Temperate japonica,KOR,Bred,IT 005281
+289,RWG-289,Saenara,SAMEA4999164,Temperate japonica,KOR,Bred,IT 005469
+290,RWG-290,Paldal,SAMEA4999283,Temperate japonica,KOR,Bred,IT 008952
+291,RWG-291,Nongbaeg,SAMEA4999303,Temperate japonica,KOR,Bred,IT 005668
+292,RWG-292,Chupung  ,SAMEA4999323,Indica,KOR,Bred,IT 009842
+293,RWG-293,Kwanak  ,SAMEA4999473,Temperate japonica,KOR,Bred,IT 007187
+294,RWG-294,Seonam,SAMEA4999443,Temperate japonica,KOR,Bred,IT 195093
+295,RWG-295,Tal,SAMN16203532,Aus,TWN,Landrace,IT 246657
+296,RWG-296,Daw Dam,SAMN16203533,Tropical japonica,NPL,,IT 113523 
+297,RWG-297,Singwang  ,SAMN16203534,Indica,KOR,Bred,IT 212481 
+298,RWG-298,En-shi dai Minoru,SAMN16203535,Temperate japonica,JPN,,IT 291894
+299,RWG-299,IR72,SAMN16203536,Indica,PHL,Bred,IT 207586 
+300,RWG-316,Daebo,SAMN16203537,Temperate japonica,KOR,Bred,IT 275524
+301,RWG-317,Mipum,SAMN16203538,Temperate japonica,KOR,Bred,IT 242635
+302,RWG-318,Jinsumi,SAMN16203539,Temperate japonica,KOR,Bred,IT 227134
+303,RWG-319,Hyeonpum,SAMN16203540,Temperate japonica,KOR,Bred,-
+304,RWG-320,Geonyang2ho,SAMN16203541,Temperate japonica,KOR,Bred,-
+305,RWG-321,Geonyangmi,SAMN16203542,Temperate japonica,KOR,Bred,-
+306,RWG-322,Geumyoung,SAMN16203543,Temperate japonica,KOR,Bred,IT 331753
+307,RWG-323,Nunbora,SAMN16203544,Temperate japonica,KOR,Bred,IT 217828
+308,RWG-324,Nunkeunheugchal1ho,SAMN16203545,Temperate japonica,KOR,Bred,IT 301313
+309,RWG-325,Dabo,SAMN16203546,Temperate japonica,KOR,Bred,-
+310,RWG-326,Dacheong,SAMN16203547,Temperate japonica,KOR,Bred,IT 235287
+311,RWG-327,Daechan,SAMN16203548,Temperate japonica,KOR,Bred,-
+312,RWG-328,Donghaejinmi,SAMN16203549,Temperate japonica,KOR,Bred,IT 235836
+313,RWG-329,Manjong,SAMN16203550,Temperate japonica,KOR,Bred,IT 248699
+314,RWG-330,Malgeumi,SAMN16203551,Temperate japonica,KOR,Bred,IT 223976
+315,RWG-331,Matdream,SAMN16203552,Temperate japonica,KOR,Bred,IT 301300
+316,RWG-332,Mogyang,SAMN16203553,Indica,KOR,Bred,IT 227055
+317,RWG-333,Mogwoo,SAMN16203554,Indica,KOR,Bred,IT 274639
+318,RWG-334,Migwang,SAMN16203555,Temperate japonica,KOR,Bred,IT 223094
+319,RWG-335,Misomi,SAMN16203556,Temperate japonica,KOR,Bred,-
+320,RWG-336,Milky queen,SAMN16203557,Temperate japonica,JPN,Bred,IT 212447
+321,RWG-337,Baegseolchal,SAMN16203558,Temperate japonica,KOR,Bred,IT 235283
+322,RWG-338,Baekogchal,SAMN16203559,Temperate japonica,KOR,Bred,IT 227135
+323,RWG-339,Baegilmi,SAMN16203560,Temperate japonica,KOR,Bred,IT 301305
+324,RWG-340,Bodrami,SAMN16203561,Temperate japonica,KOR,Bred,-
+325,RWG-341,Boseogheugchal,SAMN16203562,Temperate japonica,KOR,Bred,IT 235306
+326,RWG-342,Sandeuljinmi,SAMN16203563,Temperate japonica,KOR,Bred,IT 227131
+327,RWG-343,Sanhomi,SAMN16203564,Temperate japonica,KOR,Bred,-
+328,RWG-344,Sangjuchal,SAMN16203565,Temperate japonica,KOR,Bred,IT 223953
+329,RWG-345,Saegoami,SAMN16203566,Temperate japonica,KOR,Bred,IT 275317
+330,RWG-346,Saeodae,SAMN16203567,Temperate japonica,KOR,Bred,-
+331,RWG-347,Saengdongchal,SAMN16203568,Temperate japonica,KOR,Bred,IT 237091
+332,RWG-348,Seolbaek,SAMN16203569,Temperate japonica,KOR,Bred,IT 227060
+333,RWG-349,Songjeon 3,SAMN16203570,Temperate japonica,,,-
+334,RWG-350,Suryeojinmi,SAMN16203571,Temperate japonica,KOR,Bred,IT 227051
+335,RWG-351,Subo,SAMN16203572,Temperate japonica,KOR,Bred,-
+336,RWG-352,Sinnongheugchal,SAMN16203573,Temperate japonica,KOR,Bred,IT 284610
+337,RWG-353,Sinbo,SAMN16203574,Temperate japonica,KOR,Bred,-
+338,RWG-354,Anbaek,SAMN16203575,Temperate japonica,KOR,Bred,-
+339,RWG-355,Youngbo,SAMN16203576,Temperate japonica,KOR,Bred,-
+340,RWG-356,Ondami,SAMN16203577,Temperate japonica,KOR,Bred,IT 331754
+341,RWG-357,Undoo Byeo,SAMN16203578,Temperate japonica,KOR,Bred,IT 213072
+342,RWG-358,Unmi,SAMN16203579,Temperate japonica,KOR,Bred,IT 235280
+343,RWG-359,Jakwangchal,SAMN16203580,Temperate japonica,KOR,Bred,IT 223072
+344,RWG-360,Jado,SAMN16203581,Temperate japonica,JPN,,
+345,RWG-361,Jeogjinjuchal,SAMN16203582,Temperate japonica,KOR,Bred,IT 227054
+346,RWG-362,Jogwang,SAMN16203583,Temperate japonica,KOR,Bred,-
+347,RWG-363,Josaengheugchal,SAMN16203584,Temperate japonica,KOR,Bred,IT 214862
+348,RWG-364,Joami,SAMN16203585,Temperate japonica,KOR,Bred,IT 227132
+349,RWG-365,Joan,SAMN16203586,Temperate japonica,KOR,Bred,IT 214883
+350,RWG-366,Junamjosaeng,SAMN16203587,Temperate japonica,KOR,Bred,IT 229369
+351,RWG-367,Jinbo Byeo,SAMN16203588,Temperate japonica,KOR,Bred,IT 251471
+352,RWG-368,Jinseolchal,SAMN16203589,Temperate japonica,KOR,Bred,-
+353,RWG-369,Jinok,SAMN16203590,Temperate japonica,KOR,Bred,-
+354,RWG-370,Cheongbaekchal,SAMN16203591,Temperate japonica,KOR,Bred,-
+355,RWG-371,Cheong Pung Heuk Chal,SAMN16203592,Temperate japonica,KOR,Bred,IT 251365
+356,RWG-372,Cheonghaejinmi,SAMN16203593,Temperate japonica,KOR,Bred,IT 223096
+357,RWG-373,Chungnam 1,SAMN16203594,Temperate japonica,KOR,Bred,-
+358,RWG-374,Chungnam 2,SAMN16203595,Temperate japonica,KOR,Bred,-
+359,RWG-375,Chindeul,SAMN16203596,Temperate japonica,KOR,Bred,-
+360,RWG-376,Keunnun Byeo,SAMN16203597,Temperate japonica,KOR,Bred,IT 235302
+361,RWG-377,Pyungan Byeo,SAMN16203598,Temperate japonica,KOR,Bred,IT 213276
+362,RWG-378,Hanseol Byeo,SAMN16203599,Temperate japonica,KOR,Bred,IT 223098
+363,RWG-379,Haedamssal,SAMN16203600,Temperate japonica,KOR,Bred,IT 301312
+364,RWG-380,Hyangnam Byeo,SAMN16203601,Temperate japonica,KOR,Bred,IT 191971
+365,RWG-381,Hwawang Byeo,SAMN16203602,Temperate japonica,KOR,Bred,-
+366,RWG-382,Hwangdo,SAMN16203603,Temperate japonica,JPN,,IT 264739
+367,RWG-383,Heugsujeong,SAMN16203604,Temperate japonica,KOR,Bred,-
+368,RWG-384,Heughyangchal1ho,SAMN16203605,Temperate japonica,KOR,Bred,-
+369,RWG-385,Areum Byeo,SAMN16203606,Indica,KOR,Bred,IT 203719
+370,RWG-386,Namcheon Byeo,SAMN16203607,Indica,KOR,Bred,IT 221717
+371,RWG-387,Chilsung Byeo,SAMN16203608,Indica,KOR,Bred,IT 010688
+372,RWG-388,Milyang 29,SAMN16203609,Indica,KOR,Bred,IT 006209
+373,RWG-389,Jangseong  Byeo,SAMN16203610,Indica,KOR,Bred,IT 212482
+374,RWG-390,Namyeong Byeo,SAMN16203611,Indica,KOR,Bred,IT 192002
+375,RWG-391,Pungsan Byeo,SAMN16203612,Indica,KOR,Bred,IT 212479
+376,RWG-392,Yongju Byeo,SAMN16203613,Indica,KOR,Bred,IT 112506
+377,RWG-393,Dasan1,SAMN16203614,Indica,KOR,Bred,IT 217315
+378,RWG-394,Hangangchal 1,SAMN16203615,Indica,KOR,Bred,IT 223978
+379,RWG-395,Dasan2,SAMN16203616,Indica,KOR,Bred,IT 223097
+380,RWG-396,Segyejinmi,SAMN16203617,Indica,KOR,Bred,IT 247767
+381,RWG-397,Hanareum 2,SAMN16203618,Indica,KOR,Bred,IT 251225
+382,RWG-398,Josaeng Tongil,SAMN16203619,Indica,KOR,Bred,IT 007212
+383,RWG-399,Yeongnam Josaeng,SAMN16203620,Indica,KOR,Bred,IT 006187
+384,RWG-400,Tongilchal,SAMN16203621,Indica,KOR,Bred,IT 007225
+385,RWG-401,Hwanggeum Byeo,SAMN16203622,Indica,KOR,Bred,IT 007222
+386,RWG-402,Milyang 21,SAMN16203623,Indica,KOR,Bred,IT 006197
+387,RWG-403,Milyang 22,SAMN16203624,Indica,KOR,Bred,IT 006200
+388,RWG-404,Honam Josaeng,SAMN16203625,Indica,KOR,Bred,IT 008129
+389,RWG-405,Geumgang Byeo,SAMN16203626,Indica,KOR,Bred,IT 007230
+390,RWG-406,Manseok Byeo,SAMN16203627,Indica,KOR,Bred,IT 192030
+391,RWG-407,Milyang 30,SAMN16203628,Indica,KOR,Bred,IT 009736
+392,RWG-408,Jinju Byeo,SAMN16203629,Temperate japonica,KOR,Bred,IT 008157
+393,RWG-409,Chiak Byeo,SAMN16203630,Temperate japonica,KOR,Bred,IT 142796
+394,RWG-410,Sujeong Byeo,SAMN16203631,Indica,KOR,Bred,IT 006234
+395,RWG-411,BP603,SAMN16203632,Indica,CHN,,-
+396,RWG-412,Daohuaxiang 2,SAMN16203633,Temperate japonica,CHN,Bred,IT 292036
+397,RWG-413,Wuxiang 99-8,SAMN16203634,Temperate japonica,CHN,Bred,K037322
+398,RWG-414,OITA KAORI INE 2,SAMN16203635,Temperate japonica,JPN,Bred,IT 210864
+399,RWG-415,Delmont,SAMN16203636,Tropical japonica,USA,Bred,-
+400,RWG-416,IR841-85-1-1-2,SAMN16203637,Indica,PHL,Bred,IT 122941
+401,RWG-417,Jasmine 85,SAMN16203638,Indica,USA,Bred,K037775
+402,RWG-418,Zixiangnuo 861,SAMN16203639,Temperate japonica,CHN,Bred,K037323
+403,RWG-419,A-1,SAMN16203640,Tropical japonica,BTN,Bred,IT 000001
+404,RWG-420,Goolarath,SAMN16203641,Tropical japonica,AUS,Bred,-
+405,RWG-421,Hwangmibyeo 2,SAMN16203642,Indica,KOR,Bred,IT 191962
+406,RWG-422,Seonhyangheukmi,SAMN16203643,Temperate japonica,KOR,Bred,-
+407,RWG-423,SD-11,SAMN16203644,Temperate japonica,CHN,Bred,-
+408,RWG-424,SD-25,SAMN16203645,Temperate japonica,CHN,Bred,-
+409,RWG-425,E2,SAMN16203646,Temperate japonica,CHN,Bred,-
+410,RWG-426,BP066,SAMN16203647,Indica,CHN,Bred,-
+411,RWG-427,BP444,SAMN16203648,Indica,CHN,Bred,-
+412,RWG-428,SP-519,SAMN16203649,Temperate japonica,CHN,Bred,-
+413,RWG-429,SP-687,SAMN16203650,Temperate japonica,CHN,Bred,-
+414,RWG-430,SP-688,SAMN16203651,Temperate japonica,CHN,Bred,-
+415,RWG-431,SP-698,SAMN16203652,Temperate japonica,CHN,Bred,-
+416,RWG-432,SD-1,SAMN16203653,Temperate japonica,CHN,Bred,-
+417,RWG-433,SD-10,SAMN16203654,Temperate japonica,CHN,Bred,-
+418,RWG-434,27166,SAMN16203655,Oryza officinalis,,Wild,IT 145548
+419,RWG-435,27167,SAMN16203656,Oryza eichingeri,,Wild,IT 145571
+420,RWG-436,27169,SAMN16203657,Oryza ridleyi,,Wild,IT 173430
+421,RWG-437,27175,SAMN16203658,Oryza longistaminata,LKA,Wild,IT 181087
+422,RWG-438,27177,SAMN16203659,Oryza nivara,NPL,Wild,IT 213462
+423,RWG-439,27178,SAMN16203660,Oryza nivara,NPL,Wild,IT 235530
+424,RWG-440,WS-12,SAMN16203661,Oryza australiensis,,Wild,Acc. 100882
+425,RWG-441,WS-17,SAMN16203662,Oryza glaberrima,LBR,Wild,TOG 6589
+426,RWG-442,WS-2,SAMN16203663,Oryza malabarensis,,Wild,Acc. 106423
+427,RWG-443,WS-20,SAMN16203664,Oryza officinalis,BFA,Wild,TOG 7291
+428,RWG-444,WS-25,SAMN16203665,Oryza rufipogon,,Wild,Acc. 145535
+429,RWG-445,WS-29,SAMN16203666,Oryza rufipogon,KHM,Wild,Acc. 181163
+430,RWG-446,WS-4,SAMN16203667,Oryza officinalis,,Wild,Acc. 105910
+431,RWG-447,WS-5,SAMN16203668,Oryza glaberrima,,Wild,Acc. 101399
+432,RWG-448,DNA-19,SAMN16203669,Oryza barthii,GIN,Wild,PI 236393     
+433,RWG-449,DNA-20,SAMN16203670,Oryza alta,,Wild,PI 590397     
+434,RWG-450,DNA-21,SAMN16203671,Oryza barthii,,Wild,PI 590399     
+435,RWG-451,DNA-22,SAMN16203672,Oryza nivara,,Wild,PI 590408     
+436,RWG-452,DNA-26,SAMN16203673,Oryza alta,,Wild,GSOR 311686     
+437,RWG-453,DNA-31,SAMN16203674,Oryza alta,BRA,Wild,IRGC 100161
+438,RWG-454,DNA-34,SAMN16203675,Oryza australiensis,AUS,Wild,IRGC 105278
+439,RWG-455,DNA-35,SAMN16203676,Oryza brachyantha,SLE,Wild,IRGC 101233
+440,RWG-456,DNA-36,SAMN16203677,Oryza brachyantha,SLE,Wild,IRGC 101234
+441,RWG-457,DNA-38,SAMN16203678,Oryza eichingeri,UGA,Wild,IRGC 101426
+442,RWG-458,DNA-39,SAMN16203679,Oryza eichingeri,UGA,Wild,IRGC 105161
+443,RWG-459,DNA-40,SAMN16203680,Oryza glumaepatula,BRA,Wild,IRGC 100970
+444,RWG-460,DNA-41,SAMN16203681,Oryza glumaepatula,BRA,Wild,IRGC 88800
+445,RWG-461,DNA-42,SAMN16203682,Oryza glumaepatula,BRA,Wild,IRGC 105668
+446,RWG-462,DNA-43,SAMN16203683,Oryza grandiglumis,BRA,Wild,IRGC 106241
+447,RWG-463,DNA-44,SAMN16203684,Oryza grandiglumis,BRA,Wild,IRGC 105155
+448,RWG-464,DNA-45,SAMN16203685,Oryza grandiglumis,BRA,Wild,IRGC 105156
+449,RWG-465,DNA-46,SAMN16203686,Oryza latifolia,IDN,Wild,IRGC 105111
+450,RWG-466,DNA-47,SAMN16203687,Oryza latifolia,,Wild,IRGC 101394
+451,RWG-467,DNA-48,SAMN16203688,Oryza latifolia,,Wild,IRGC 80770
+452,RWG-468,DNA-49,SAMN16203689,Oryza longiglumis,IDN,Wild,IRGC 105147
+453,RWG-469,DNA-50,SAMN16203690,Oryza longiglumis,IDN,Wild,IRGC 105562
+454,RWG-470,DNA-51,SAMN16203691,Oryza longistaminata,SLE,Wild,IRGC 101228
+455,RWG-471,DNA-52,SAMN16203692,Oryza longistaminata,CMR,Wild,IRGC 92664
+456,RWG-472,DNA-54,SAMN16203693,Oryza malampuzhaensis,IND,Wild,IRGC 100957
+457,RWG-473,DNA-55,SAMN16203694,Oryza malampuzhaensis,IND,Wild,IRGC 105322
+458,RWG-474,DNA-56,SAMN16203695,Oryza malampuzhaensis,IND,Wild,IRGC 80768
+459,RWG-475,DNA-57,SAMN16203696,Oryza meridionalis,AUS,Wild,IRGC 105279
+460,RWG-476,DNA-58,SAMN16203697,Oryza meridionalis,AUS,Wild,IRGC 101466
+461,RWG-477,DNA-59,SAMN16203698,Oryza minuta,PHL,Wild,IRGC 93257
+462,RWG-478,DNA-60,SAMN16203699,Oryza minuta,PHL,Wild,IRGC 101128
+463,RWG-479,DNA-66,SAMN16203700,Oryza punctata,NGA,Wild,IRGC 105982
+464,RWG-480,DNA-67,SAMN16203701,Oryza punctata,,Wild,IRGC 100126
+465,RWG-481,DNA-68,SAMN16203702,Oryza punctata,,Wild,IRGC 101441
+466,RWG-482,DNA-69,SAMN16203703,Oryza rhizomatis,LKA,Wild,IRGC 105448
+467,RWG-483,DNA-70,SAMN16203704,Oryza rhizomatis,LKA,Wild,IRGC 103410
+468,RWG-484,DNA-71,SAMN16203705,Oryza rhizomatis,LKA,Wild,IRGC 105660
+469,RWG-485,DNA-72,SAMN16203706,Oryza rufipogon,LAO,Wild,IRGC 93249
+470,RWG-486,DNA-80,SAMN16203707,Oryza glaberrima,BFA,Wild,IRGC 103469
+471,RWG-487,DNA-82,SAMN16203708,Oryza barthii,TCD,Wild,IRGC 104119
+472,RWG-488,Tubtim chumphae,SAMN16203709,Indica,THA,Bred,KR 02605
+473,RWG-489,Hom mali nin surin,SAMN16203710,Indica,THA,Bred,KR 02604
+474,RWG-490,Khao Dawk Mali 105,SAMN16203711,Indica,THA,Bred,KR 02602
+475,RWG-491,Pathumthani 1,SAMN16203712,Indica,THA,Bred,KR 02603
+475,RWG-491,Pathumthani 1,SAMN16203712,Indica,THA,Bred,KR 02603
