@@ -22,6 +22,7 @@ from datetime import datetime
 from typing import Dict, List, Optional, Tuple
 from functools import lru_cache
 from backend_csv_core import load_resource_types, load_vcf_mapping
+
 from multi_filter import (
     FilterManager, get_initial_filter_values,
      apply_stored_filter
@@ -1217,7 +1218,7 @@ opt3_layout = html.Div(
                 selected_rows=[],
                 **base_table_props2,
             ),
-            html.Small("체크하면 해당 Entry_No.가 ‘Select VCF samples’ 드롭다운에 추가됩니다.", style={"color":"#7f8c8d"}),
+            html.Small("When checked, the corresponding Entry_No. will be added to the ‘Select VCF samples’ dropdown.", style={"color":"#7f8c8d"}),
         ], style={"marginBottom":"10px"}),
 
         # (4) 선택된 VCF 프리뷰 (드롭다운 value 그대로 표시)
@@ -1871,8 +1872,7 @@ def _safe_empty(requested, msg="empty", combo_key=""):
         "combo_key": combo_key
     }
 
-from pedi_module import PedigreeApp
-from gwas_module import GWASModule
+
 # Local modules - 경로 문제 해결
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -2305,10 +2305,12 @@ def create_gwas_analysis_content(fixed_vcf_value):
                                         "❓",
                                         id="trait-barplot-help-icon",
                                         style={
-                                            "marginLeft": "6px",
+                                            "marginLeft": "1px",
                                             "cursor": "pointer",
                                             "color": "#6c757d",
                                             "fontSize": "16px",
+                                            "position": "relative",
+                                            "top": "-1px",      # ✅ 미세 정렬 (가장 안정적)
                                         }
                                     ),
                                     dbc.Tooltip(
@@ -2319,7 +2321,7 @@ def create_gwas_analysis_content(fixed_vcf_value):
                                         ],
                                         target="trait-barplot-help-icon",
                                         placement="right",
-                                        style={"fontSize": "0.9em", "maxWidth": "360px"}
+                                        style={"fontSize": "0.9em", "maxWidth": "480px"}
                                     ),
                                 ],
                                 style={
@@ -2449,8 +2451,9 @@ def create_gwas_analysis_content(fixed_vcf_value):
                                             ],
                                             value=[],
                                             inline=True,
+                                            inputStyle={"marginRight": "3px"},
                                             labelStyle={'margin-right': '10px', 'margin-left': '3px'},
-                                            style={'marginBottom': '10px','marginLeft':'15px'}
+                                            #style={'marginBottom': '10px','marginLeft':'15px'}
                                         ) 
                                         ], style={"marginBottom": "5px"}),
                                         # 필터들을 감싸는 Grid Wrapper
@@ -2592,7 +2595,7 @@ def create_gwas_analysis_content(fixed_vcf_value):
 
                                           # 닫혀 있어도 항상 표시
                                     ],
-                                    style={'width': '90%', 'margin': '0 auto'})  # ✅ Collapse 박스 가운데 정렬
+                                    style={'width': '90%', 'margin': '0 auto 0 15px'})  # ✅ Collapse 박스 가운데 정렬
                             
 
                             
@@ -2680,6 +2683,7 @@ def create_gwas_analysis_content(fixed_vcf_value):
                                         ],
                                         value='trait',
                                         inline=True,
+                                        inputStyle={'marginRight': '3px'},
                                         labelStyle={'margin-right': '10px', 'margin-left': '3px'},
                                         style={'marginBottom': '5px', 'marginLeft': '15px'}
                                     ),
@@ -2722,36 +2726,14 @@ def create_gwas_analysis_content(fixed_vcf_value):
                                         'transition': 'max-height 0.4s ease',
                                         'maxHeight': '500px'
                                     }),
-                                ], style={'width': '90%', 'margin': '0 auto'}),
+                                
+                                    # --- Group Switch (아래로 이동) ---
+                                
+                                ], style={'width': '90%', 'margin': '0 auto 0 15px'}),
 
-                                # --- Group Switch (아래로 이동) ---
-                                html.Div(
-                                    id="group-enable-container",
-                                    style={
-                                        "display": "none",
-                                        "alignItems": "center",
-                                        "justifyContent": "flex-start",
-                                        "gap": "8px",
-                                        "margin": "10px 0 5px 10px"
-
-                                    },
-                                    children=[
-
-                                        
-                                        dbc.Switch(
-                                            id="group-enable-switch",
-                                            label="Apply Grouping to Plots",
-                                            value=False,
-                                            style={"marginLeft": "5px"}
-                                        ),
-                                        html.Span(
-                                            "Enable this option to visualize bar and scatter plots by the selected group.",
-                                            style={"fontSize": "12px", "color": "#555"}
-                                        )
-                                    ]
-                                )
+                                
                             ], id='group-options-collapse', is_open=False,
-                            style={'width': '100%', 'margin': '0 auto'})
+                            style={'width': '100%', 'margin': '0 auto 0 15px'})
                         ]),
                         html.Hr(style={'marginTop': '5px', 'marginBottom': '5px'}),
                     # Sample View Section
@@ -2854,10 +2836,12 @@ def create_gwas_analysis_content(fixed_vcf_value):
                                         "❓",
                                         id="gwas-help-icon",
                                         style={
-                                            "marginLeft": "6px",
+                                            "marginLeft": "1px",
                                             "cursor": "pointer",
                                             "color": "#6c757d",
                                             "fontSize": "16px",
+                                            "position": "relative",
+                                            "top": "-1px",      # ✅ 미세 정렬 (가장 안정적)
                                         }
                                     ),
                                     dbc.Tooltip(
@@ -2870,7 +2854,7 @@ def create_gwas_analysis_content(fixed_vcf_value):
                                         ],
                                         target="gwas-help-icon",
                                         placement="right",
-                                        style={"fontSize": "0.9em", "maxWidth": "380px"}
+                                        style={"fontSize": "0.9em", "maxWidth": "480px"}
                                     ),
                                 ], style={"display": "flex", "alignItems": "center"}),
 
@@ -3674,7 +3658,7 @@ def create_layout(processed_name='', variety_id=''):
                         initial_vcf_values = [vcf_status]
                         initial_analysis_tabs = [
                             dbc.Tab(label="Phenotype Analysis", tab_id="phenotype-tab"),
-                            dbc.Tab(label=f"GWAS Analysis ([{vcf_status}])", tab_id="gwas-tab", disabled=False),
+                            dbc.Tab(label=f"GWAS Analysis", tab_id="gwas-tab", disabled=False),
                         ]
                         print(f"✅ nopedi case: GWAS enabled with VCF: {vcf_status}")
                     else:
@@ -3740,7 +3724,7 @@ def create_layout(processed_name='', variety_id=''):
                 initial_vcf_values = [vcf_status]
                 initial_analysis_tabs = [
                     dbc.Tab(label="Phenotype Analysis", tab_id="phenotype-tab"),
-                    dbc.Tab(label=f"GWAS Analysis ([{vcf_status}])", tab_id="gwas-tab", disabled=False),
+                    dbc.Tab(label=f"GWAS Analysis", tab_id="gwas-tab", disabled=False),
                 ]
             else:
                 initial_analysis_tabs = [
@@ -4036,7 +4020,7 @@ def create_layout(processed_name='', variety_id=''):
                                             _legend_item("#27ae60", "circle", "Phenotype"),
                                             _legend_item("#e67e22", "circle", "Phenotype + Genotype"),
                                             _legend_item("#bdc3c7", "circle", "No Data"),
-                                            _legend_ring_item("#2ecc71", "circle", "Selected"),  # 🌿 외곽만 초록색
+                                            _legend_ring_item("#ff33cc", "circle", "Selected"),  # 🌿 외곽만 초록색 #2ecc71->ff33cc
                                             _legend_item("transparent", "circle", "In Pedi", border="#f8f9fa"),
                                             _legend_item("transparent", "rectangle", "In Non-Pedi", border="#f8f9fa"),
                                         ],
@@ -5670,7 +5654,7 @@ def update_pedigree_path(path_data, group_data, fixed_vcf_data):
     if base_name:
         breadcrumb.append(html.Div([
             html.Span(base_name, className="breadcrumb-item text-dark"),
-            html.Span(" (default)", style={'color': '#28a745', 'fontSize': '12px'})
+            html.Span(" (base)", style={'color': '#28a745', 'fontSize': '12px'})
         ], className="breadcrumb-item-container"))
     else:
         # ✅ 초기 값 없을 때 placeholder 표시
@@ -5685,10 +5669,6 @@ def update_pedigree_path(path_data, group_data, fixed_vcf_data):
                     gname,
                     className="breadcrumb-item text-info",
                     style={'fontWeight': '500'}
-                ),
-                html.Span(
-                    f" (add item{j+1})",
-                    style={'color': '#17a2b8', 'fontSize': '12px', 'marginLeft': '3px'}
                 )
             ], className="breadcrumb-item-container"))
             if j < len(group_data) - 1:
@@ -7217,7 +7197,9 @@ def create_enhanced_clickable_barplot(summary_df, vcf_samples, selected_traits=N
 
     selected_traits = selected_traits or []
     palette = px.colors.qualitative.Set2
-    sample_colors = {s: palette[i % len(palette)] for i, s in enumerate(vcf_samples)}
+    palette2 = px.colors.qualitative.Set3         # Sample용 ✅ 추가
+
+    sample_colors = {s: palette2[i % len(palette2)] for i, s in enumerate(vcf_samples)}
 
     # 기본 컬럼 확보
     if "Subtrait" not in summary_df.columns:
@@ -7233,11 +7215,11 @@ def create_enhanced_clickable_barplot(summary_df, vcf_samples, selected_traits=N
             subdf = summary_df[summary_df.get("Sample", s) == s] if "Sample" in summary_df.columns else summary_df
             if subdf.empty:
                 continue
-
+            labels = sample_label_dict.get(s, s) 
             fig.add_bar(
                 x=subdf["Trait"],
                 y=subdf[col],
-                name=s,
+                name=labels,
                 marker=dict(color=sample_colors.get(s, "#999")),
                 text=subdf[col],
                 textposition="auto",
@@ -7289,7 +7271,7 @@ def create_enhanced_clickable_barplot(summary_df, vcf_samples, selected_traits=N
         fig = go.Figure()
 
         # Summary bar
-        bar_name = "Summary"
+        bar_name = "Summary (bar)"
         if is_single and vcf_samples:
             single_sample = vcf_samples[0]
             bar_name = sample_label_dict.get(single_sample, single_sample)  # ✅ 샘플명으로 대체
@@ -7303,8 +7285,17 @@ def create_enhanced_clickable_barplot(summary_df, vcf_samples, selected_traits=N
             textposition="auto",
             textfont=dict(size=11, color="black"),
             customdata=summary_df["Trait"],
-            hovertemplate="<b>%{customdata}</b><br>Count: %{y}<extra></extra>"
+            hovertemplate="<b>%{customdata}</b><br>Count: %{y}<extra></extra>",
+            showlegend=False  # ✅ 실제 bar는 legend 제외
         )
+        summary_color = "#323232"  # 회색 tone for Summary (bar)
+        fig.add_trace(go.Scatter(
+            x=[None], y=[None],
+            mode="markers",
+            marker=dict(size=10, color=summary_color, symbol="square"),
+            name=bar_name,
+            showlegend=True
+        ))
 
         # Sample traces
         if not is_single:
@@ -7480,6 +7471,7 @@ def update_integrated_trait_bar_container(
                 selected_samples,
                 selected_traits,
                 mode="unique"   # ✅ 모드 인자로 전달
+                , sample_label_dict=gwas_label
             )
 
         else:
@@ -9253,7 +9245,7 @@ def apply_trait_color_from_interactions(
             highlight_select_styles.append({
                 "selector": f'node[id = "{nid}"]',
                 "style": {
-                    "border-color": "#145A32",   # 짙은 초록 외곽선
+                    "border-color": "#ff33cc",   # 짙은 초록 외곽선
                     "border-width": 6,           # 두꺼운 강조선
                     "transition-property": "border-color, border-width",
                     "transition-duration": "0.3s",
@@ -9380,7 +9372,7 @@ def apply_trait_color_from_interactions(
         highlight_select_styles.append({
             "selector": f'node[id = "{nid}"]',
             "style": {
-                "border-color": "#145A32",   # 짙은 초록 외곽선
+                "border-color": "#ff33cc",   # 짙은 초록 외곽선
                 "border-width": 6,           # 두꺼운 강조선
                 "transition-property": "border-color, border-width",
                 "transition-duration": "0.3s",
@@ -11060,15 +11052,19 @@ def update_final_df_and_size(mode, selected_samples, processed):
      Input('sample-mode-store', 'data'),
      Input('pvalue-cutoff', 'value'),
      Input('integrated-selected-traits-store', 'data'),
+      Input('gwas-click-store', 'data'),   
      #Input('scatter-refresh-trigger', 'data'),
      
      ],
     prevent_initial_call=True
 )
-def update_integrated_scatter(final_df, mode, pvalue_cutoff,selected_traits):#,selected_traits
+def update_integrated_scatter(final_df, mode, pvalue_cutoff,selected_traits, click_store):#,selected_traits
     import pandas as pd, numpy as np
     import plotly.graph_objects as go
     from plotly.subplots import make_subplots
+    from dash import ctx
+    trig = ctx.triggered_id
+
 
     if not final_df or not mode:
         return go.Figure().add_annotation(
@@ -11076,6 +11072,14 @@ def update_integrated_scatter(final_df, mode, pvalue_cutoff,selected_traits):#,s
             x=0.5, y=0.5, xref="paper", yref="paper",
             showarrow=False, font=dict(size=16, color="gray")
         ), no_update, no_update
+    
+        
+    
+
+    if trig == 'gwas-click-store':
+        # None -> 패스, []만 재생성, 길이>0 -> 패스
+        if click_store is None or len(click_store) != 0:
+            raise PreventUpdate
     
 
 
@@ -11485,7 +11489,29 @@ def render_trait_grouping(selected_traits):
             'gap': '10px',
             'justifyContent': 'flex-start',
             'padding': '5px'
-        })
+        }),
+        html.Hr(style={'marginTop': '3px', 'marginBottom': '3px'}),
+            html.Div(
+                id="group-enable-container",
+                style={
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "alignItems": "flex-end",
+                    "margin": "10px 15px 5px 10px",
+                    "gap": "4px"
+                },
+                children=[
+                    dbc.Button(
+                        "Apply Grouping to Plots",
+                        id="group-enable-switch",
+                        n_clicks=0,
+                        color="secondary",
+                        size="sm",
+                        style={"width": "220px"}
+                    )
+                ]
+            )
+
     ],
     style={
         'border': '1px solid #ccc',
@@ -11604,7 +11630,29 @@ def render_variant_grouping(filter_meta):
             'gap': '10px',
             'justifyContent': 'flex-start',
             'padding': '5px'
-        })
+        }),
+html.Hr(style={'marginTop': '3px', 'marginBottom': '3px'}),
+            html.Div(
+                id="group-enable-container",
+                style={
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "alignItems": "flex-end",
+                    "margin": "10px 15px 5px 10px",
+                    "gap": "4px"
+                },
+                children=[
+                    dbc.Button(
+                        "Apply Grouping to Plots",
+                        id="group-enable-switch",
+                        n_clicks=0,
+                        color="secondary",
+                        size="sm",
+                        style={"width": "220px"}
+                    )
+                ]
+            )
+
     ],
     style={
         'border': '1px solid #ccc',
@@ -11766,7 +11814,28 @@ def render_sample_grouping(samples):
             'gap': '10px',
             'justifyContent': 'flex-start',
             'padding': '5px'
-        })
+        }),
+        html.Hr(style={'marginTop': '3px', 'marginBottom': '3px'}),
+            html.Div(
+                id="group-enable-container",
+                style={
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "alignItems": "flex-end",
+                    "margin": "10px 15px 5px 10px",
+                    "gap": "4px"
+                },
+                children=[
+                    dbc.Button(
+                        "Apply Grouping to Plots",
+                        id="group-enable-switch",
+                        n_clicks=0,
+                        color="secondary",
+                        size="sm",
+                        style={"width": "220px"}
+                    )
+                ]
+            )
     ],
     style={
         'border': '1px solid #ccc',
@@ -11776,7 +11845,7 @@ def render_sample_grouping(samples):
         'marginBottom': '10px'
     })
 
-
+'''
 @callback(
     Output("group-enable-container", "style",allow_duplicate=True),
     Output("group-enable-switch", "value",allow_duplicate=True),
@@ -11791,6 +11860,8 @@ def toggle_group_enable(all_group_values):
         return {"display": "block", "marginBottom": "10px"}, False
     else:
         return {"display": "none"}, False
+'''
+
 
 def create_sample_summary_data_from_combo_bygroup(
     combo_json, vcf_samples,
@@ -12013,7 +12084,8 @@ def create_enhanced_clickable_barplot_bygroup(summary_df):
         clickmode='event',
         hovermode='closest',
     )
-    fig.update_xaxes(showgrid=True, gridcolor='#f0f0f0')
+    #fig.update_xaxes(showgrid=True, gridcolor='#f0f0f0')
+    fig.update_xaxes(visible=False, showticklabels=False, showgrid=False)
     fig.update_yaxes(showgrid=True, gridcolor='#f0f0f0')
 
     return fig
@@ -12035,7 +12107,7 @@ def create_enhanced_clickable_barplot_bygroup(summary_df):
         Input("gwas-combo-store", "data"),
         # 🔽 maf-filter-store → State로 이동
         Input("snp-occurrence-store", "data"),
-        Input("group-enable-switch", "value"),
+        Input("group-enable-switch", "n_clicks"),
         Input("group-type-radio", "value"),
         Input({'type': 'group-dropdown', 'group_type': ALL, 'index': ALL}, 'value'),
         # 🔽 새로 maf-enabled만 Input으로 추가 (on/off 반응)
@@ -12209,7 +12281,7 @@ def update_trait_bar_container_group(
         return html.Div(f"Error: {e}", style={'color': 'red', 'textAlign': 'center'}), filter_meta_state, None, dash.no_update,dash.no_update
 
 @callback(
-    Output('group-enable-switch', 'value', allow_duplicate=True),
+    #Output('group-enable-switch', 'value', allow_duplicate=True),
     Output('subtrait-container-wrapper-filter', 'style'),
     Output('subtrait-container-wrapper-group', 'style'),
     Output('close-group-barplot-btn', 'style'),   # ✅ 버튼 표시 제어 추가
@@ -12236,7 +12308,7 @@ def toggle_barplot_display_by_group(fig):
     # 🔹 그룹 플롯이 없는 경우 → 기본 barplot 모드
     if not fig or not fig.get("data"):
         return (
-            False,  # group-enable-switch OFF
+            #False,  # group-enable-switch OFF
             {'display': 'block'},  # filter 영역 보임
             {'display': 'none'},   # group 영역 숨김
             {**base_btn_style, "display": "none"}  # ❌ 버튼 숨김
@@ -12244,7 +12316,7 @@ def toggle_barplot_display_by_group(fig):
 
     # 🔹 그룹 플롯 존재 → group plot 활성
     return (
-        False,
+        #False,
         {'display': 'none'},       # filter 숨김
         {'display': 'block'},      # group 영역 표시
         {**base_btn_style, "display": "block"}  # ✅ 버튼 표시
@@ -12467,21 +12539,26 @@ def toggle_integrated_filter(n, current_style):
     Output('gwas-sample-scatter-group-container', 'style',allow_duplicate=True),
     
     Input('df-vp-store2', 'data'),
+    Input('gwas-click-store', 'data'),
     #Input('scatter-refresh-trigger-group', 'data')]
     
     prevent_initial_call=True
 )
-def update_group_scatter(df_vp_data):
+def update_group_scatter(df_vp_data, click_store):
     import pandas as pd, numpy as np
     import plotly.graph_objects as go
     from plotly.subplots import make_subplots
+    from dash import ctx
+    trig = ctx.triggered_id
+
+
 
     if not df_vp_data:
         return go.Figure().add_annotation(
             text="No group data available",
             x=0.5, y=0.5, xref="paper", yref="paper",
             showarrow=False, font=dict(size=16, color="gray")
-        ), {'display': 'none'}
+        ), no_update, {'display': 'none'}
 
     df = pd.DataFrame(df_vp_data)
     if df.empty or "Group" not in df.columns:
@@ -12489,7 +12566,12 @@ def update_group_scatter(df_vp_data):
             text="No valid group data",
             x=0.5, y=0.5, xref="paper", yref="paper",
             showarrow=False, font=dict(size=16, color="gray")
-        ), {'display': 'none'}
+        ), no_update, {'display': 'none'}
+    
+    if trig == 'gwas-click-store':
+    # None -> 패스, []만 재생성, 길이>0 -> 패스
+        if click_store is None or len(click_store) != 0:
+            raise PreventUpdate
 
     def format_gt_row(row):
         if not gt_cols:
@@ -15056,7 +15138,7 @@ def handle_gwas_click(scatter_click, active_cell, sample_trigger,
             highlight_select_styles.append({
                 "selector": f'node[id = "{nid}"]',
                 "style": {
-                    "border-color": "#145A32",   # 짙은 초록 외곽선
+                    "border-color": "#ff33cc",   # 짙은 초록 외곽선
                     "border-width": 6,           # 두꺼운 강조선
                     "transition-property": "border-color, border-width",
                     "transition-duration": "0.3s",
@@ -15293,7 +15375,7 @@ def handle_gwas_click(scatter_click, active_cell, sample_trigger,
         highlight_select_styles.append({
             "selector": f'node[id = "{nid}"]',
             "style": {
-                "border-color": "#145A32",   # 짙은 초록 외곽선
+                "border-color": "#ff33cc",   # 짙은 초록 외곽선
                 "border-width": 6,           # 두꺼운 강조선
                 "transition-property": "border-color, border-width",
                 "transition-duration": "0.3s",
@@ -15433,7 +15515,7 @@ def handle_gwas_click_bygroup(
             highlight_select_styles.append({
                 "selector": f'node[id = "{nid}"]',
                 "style": {
-                    "border-color": "#145A32",   # 짙은 초록 외곽선
+                    "border-color": "#ff33cc",   # 짙은 초록 외곽선
                     "border-width": 6,           # 두꺼운 강조선
                     "transition-property": "border-color, border-width",
                     "transition-duration": "0.3s",
@@ -15658,7 +15740,7 @@ def handle_gwas_click_bygroup(
         highlight_select_styles.append({
             "selector": f'node[id = "{nid}"]',
             "style": {
-                "border-color": "#145A32",   # 짙은 초록 외곽선
+                "border-color": "#ff33cc",   # 짙은 초록 외곽선
                 "border-width": 6,           # 두꺼운 강조선
                 "transition-property": "border-color, border-width",
                 "transition-duration": "0.3s",
@@ -15836,7 +15918,7 @@ def highlight_selected_nodes(selected_nodes, fixed_vcf_item, fixed_vcf_item_nope
         highlight_styles.append({
             "selector": f'node[id = "{nid}"]',
             "style": {
-                "border-color": "#145A32",   # 짙은 초록 외곽선
+                "border-color": "#ff33cc",   # 짙은 초록 외곽선
                 "border-width": 6,           # 두꺼운 강조선
                 "transition-property": "border-color, border-width",
                 "transition-duration": "0.3s",
@@ -15970,7 +16052,7 @@ def expand_selected_nodes(n_clicks, selected_nodes, base_elements, path_store, c
         highlight_select_styles.append({
             "selector": f'node[id = "{nid}"]',
             "style": {
-                "border-color": "#145A32",   # 짙은 초록 외곽선
+                "border-color": "#ff33cc",   # 짙은 초록 외곽선
                 "border-width": 6,           # 두꺼운 강조선
                 "transition-property": "border-color, border-width",
                 "transition-duration": "0.3s",
@@ -16329,7 +16411,7 @@ def highlight_components(selected_comps, comp_info):
         ]
 
     highlight_style = []
-    print(selected_comps)
+    #print(selected_comps)
     # 3️⃣ 선택된 컴포넌트마다 하이라이트 레이어 추가
     for i, comp_id in enumerate(selected_comps):
         comp = next((c for c in comp_info if c.get('id') == comp_id), None)
@@ -16337,11 +16419,11 @@ def highlight_components(selected_comps, comp_info):
             continue
 
         ccolor = color_palette[i % len(color_palette)]
-        print(ccolor)
-        print(i)
-        print(comp_id)
+        #print(ccolor)
+        #print(i)
+        #print(comp_id)
 
-        print(comp)
+        #print(comp)
         # 🌟 엣지 하이라이트
         for e in comp.get("edges", []):
             src, tgt = e.get("source"), e.get("target")
@@ -16531,7 +16613,7 @@ def sync_selected_nodes(selected_nodes, copy2_gwas_base, copy2_pheno_base,
         highlight_select_styles.append({
             "selector": f'node[id = "{nid}"]',
             "style": {
-                "border-color": "#145A32",   # 짙은 초록 외곽선
+                "border-color": "#ff33cc",   # 짙은 초록 외곽선
                 "border-width": 6,           # 두꺼운 강조선
                 "transition-property": "border-color, border-width",
                 "transition-duration": "0.3s",
@@ -16787,7 +16869,7 @@ def toggle_badge_and_table(
     import re
     gwas_label_dict = gwas_label_dict or {}
     #print(gwas_label_dict)
-
+    #print(click_store)
     # ---------------------------------------------
     # 내부 유틸 함수
     # ---------------------------------------------
@@ -16914,7 +16996,7 @@ def toggle_badge_and_table(
                             "display": "inline-block",
                             "cursor": "pointer",
                             "backgroundColor": f"{subtrait_color}20",
-                            "color": subtrait_color,
+                            "color": 'black',
                             "fontSize": "12px",
                             "fontWeight": "600",
                             "boxShadow": "1px 1px 3px rgba(0,0,0,0.1)",
@@ -17032,7 +17114,7 @@ def toggle_badge_and_table(
                         "display": "inline-block",
                         "cursor": "pointer",
                         "backgroundColor": f"{subtrait_color}20",
-                        "color": subtrait_color,
+                        "color": 'black',
                         "fontSize": "12px",
                         "fontWeight": "600",
                         "boxShadow": "1px 1px 3px rgba(0,0,0,0.1)",
@@ -17059,17 +17141,14 @@ def toggle_badge_and_table(
 
     raise PreventUpdate
 
-
 @callback(
     [
         Output('pedigree-cytoscape', 'stylesheet', allow_duplicate=True),
         Output({'type': 'variant-span', 'index': ALL}, 'children', allow_duplicate=True),
         Output({'type': 'variant-span', 'index': ALL}, 'style', allow_duplicate=True),
-        Output('gwas-genotype-legend', 'children', allow_duplicate=True),   # ✅ 추가
+        Output('gwas-genotype-legend', 'children', allow_duplicate=True),
     ],
-    [
-        Input({'type': 'variant-span', 'index': ALL}, 'n_clicks'),
-    ],
+    [Input({'type': 'variant-span', 'index': ALL}, 'n_clicks')],
     [
         State('gwas-click-store', 'data'),
         State('selected-nodes-store', 'data'),
@@ -17077,7 +17156,7 @@ def toggle_badge_and_table(
         State('fixed-vcf-item-nopedi', 'data'),
         State('highlighted-components-store', 'data'),
         State('component-info-store', 'data'),
-        State('gwas-selected-label-store', 'data'),  # ✅ 추가
+        State('gwas-selected-label-store', 'data'),
     ],
     prevent_initial_call=True
 )
@@ -17091,6 +17170,15 @@ def highlight_from_variant_spans(
     from dash.exceptions import PreventUpdate
 
     gwas_label_dict = gwas_label_dict or {}
+    click_store = click_store or []
+    selected_nodes = selected_nodes or []
+    if not n_clicks_list:
+        raise PreventUpdate
+
+    triggered = ctx.triggered_id
+    if not triggered or "index" not in triggered:
+        raise PreventUpdate
+    variant_id = triggered["index"]
 
     # -------------------------------
     # Helper functions
@@ -17098,121 +17186,105 @@ def highlight_from_variant_spans(
     def contains_minor(gt, minor):
         if not gt or not minor:
             return False
-        return re.search(rf"\b{re.escape(minor)}\b", gt, re.IGNORECASE) is not None
+        gt = str(gt).upper().replace("|", "/").strip()
+        minor = str(minor).upper().strip()
+        alleles = [a.strip() for a in re.split(r"[\/|]", gt) if a.strip()]
+        return minor in alleles
 
     def remove_parentheses_numbers(st):
-        if not st:
-            return st
-        return re.sub(r"\s*\(\d+\)$", "", str(st)).strip()
+        return re.sub(r"\s*\(\d+\)$", "", str(st)).strip() if st else st
 
-    def get_subtrait_color(subtrait, color_map=None):
-        if not color_map:
-            ALL_SUBTRAITS = [
-                'Yield', 'Stress', 'Plantvigor', 'Biochemical',
-                'Plantgrowth_Development', 'Plant_quality',
-                'Biologicalprocess', 'Plantmorphology', 'Sterility_Fertility'
-            ]
-            import plotly.express as px
-            ALL_SUBTRAIT_COLORS = px.colors.qualitative.Set1[:9]
-            color_map = {sub: color for sub, color in zip(ALL_SUBTRAITS, ALL_SUBTRAIT_COLORS)}
-            color_map['default'] = '#888888'
-        return color_map.get(subtrait, color_map.get('default', '#888888'))
+    def get_subtrait_color(subtrait):
+        import plotly.express as px
+        ALL_SUBTRAITS = [
+            'Yield', 'Stress', 'Plantvigor', 'Biochemical',
+            'Plantgrowth_Development', 'Plant_quality',
+            'Biologicalprocess', 'Plantmorphology', 'Sterility_Fertility'
+        ]
+        color_map = {s: c for s, c in zip(ALL_SUBTRAITS, px.colors.qualitative.Set1[:9])}
+        color_map['default'] = '#888888'
+        return color_map.get(subtrait, color_map['default'])
 
     # -------------------------------
-    # (1) Trigger 확인
-    # -------------------------------
-    if not n_clicks_list or not any(n_clicks_list):
-        raise PreventUpdate
-
-    triggered = ctx.triggered_id
-    if not triggered or "index" not in triggered:
-        raise PreventUpdate
-
-    variant_id = triggered["index"]
-    click_store = click_store or []
-    selected_nodes = selected_nodes or []
-
-    # -------------------------------
-    # (2) base node 병합
+    # Merge selected + fixed nodes
     # -------------------------------
     fixed_nodes = []
-    if fixed_vcf_item and isinstance(fixed_vcf_item, dict):
+    if fixed_vcf_item:
         fixed_nodes.append({
-            "id": str(fixed_vcf_item.get("processed_name") or ""),
-            "vcf_id": str(fixed_vcf_item.get("status") or ""),
+            "id": fixed_vcf_item.get("processed_name", ""),
+            "vcf_id": fixed_vcf_item.get("status", "")
         })
-    if fixed_vcf_item_nopedi and isinstance(fixed_vcf_item_nopedi, dict):
+    if fixed_vcf_item_nopedi:
         fixed_nodes.append({
-            "id": str(fixed_vcf_item_nopedi.get("variety_id") or ""),
-            "vcf_id": str(fixed_vcf_item_nopedi.get("status") or ""),
+            "id": fixed_vcf_item_nopedi.get("variety_id", ""),
+            "vcf_id": fixed_vcf_item_nopedi.get("status", "")
         })
     all_nodes = selected_nodes + fixed_nodes
 
     # -------------------------------
-    # (3) 클릭 상태 및 모드 판단
+    # Determine mode (single/multi)
     # -------------------------------
     click_counts = n_clicks_list or []
-    variant_idx = next(
-        (i for i, v in enumerate(click_store or []) if v.get("Variant_ID") == variant_id),
-        None
-    )
+    variant_idx = next((i for i, v in enumerate(click_store)
+                        if v.get("Variant_ID") == variant_id), None)
     if variant_idx is None:
         raise PreventUpdate
 
     click_count = click_counts[variant_idx] if len(click_counts) > variant_idx else 0
     clicked_active = (click_count % 2 == 1)
-    mode = "single" if clicked_active else "multi"
+    any_other_active = any((c or 0) % 2 == 1 for i, c in enumerate(click_counts) if i != variant_idx)
+
+    if clicked_active:
+        mode = "single"
+    elif not clicked_active and not any_other_active:
+        mode = "multi"
+    elif not clicked_active and any_other_active:
+        mode = "single"
+    else:
+        mode = "multi"
 
     # -------------------------------
-    # (4) 색상 계산 대상
+    # Determine target variants
     # -------------------------------
-    target_variants = (
-        [v for v in click_store if v["Variant_ID"] == variant_id]
-        if mode == "single"
-        else click_store
-    )
+    if mode == "single":
+        target_variants = [v for v in click_store if v["Variant_ID"] == variant_id]
+    else:
+        target_variants = click_store[:] if click_store else []
 
     # -------------------------------
-    # (5) node 색상 계산
+    # Compute node colors
     # -------------------------------
-    valid_nodes = [n for n in all_nodes if str(n.get("vcf_id", "")).strip()]
     node_colors = {}
-
-    for node in valid_nodes:
-        nid = str(node["id"])
-        vcf_id = str(node.get("vcf_id", ""))
-
-        matched_sample = None
-        for var in target_variants:
-            samples = var.get("Samples", [])
-            if any(s == vcf_id or s in vcf_id or vcf_id in s for s in samples):
-                matched_sample = next((s for s in samples if s == vcf_id or s in vcf_id or vcf_id in s), None)
-                break
-
-        if not matched_sample:
-            node_colors[nid] = "#bcbcbc"
+    for node in all_nodes:
+        nid = str(node.get("id", ""))
+        vcf_id = str(node.get("vcf_id", "")).strip()
+        if not vcf_id:
             continue
 
-        node_pass_flags = []
+        matched_flags = []
         for var in target_variants:
-            minor_allele = var.get("Minor_Allele", "")
-            gt_value = var.get(f"{matched_sample}_GT", "")
-            if not gt_value:
+            samples = var.get("Samples", [])
+            sample_match = next((s for s in samples if s == vcf_id or s in vcf_id or vcf_id in s), None)
+            if not sample_match:
                 continue
-            node_pass_flags.append(contains_minor(gt_value, minor_allele))
+            gt = var.get(f"{sample_match}_GT", "")
+            minor = var.get("Minor_Allele", "")
+            matched_flags.append(contains_minor(gt, minor))
 
-        if all(node_pass_flags):
+        if not matched_flags:
+            node_colors[nid] = "#323232"
+        elif all(matched_flags):
             node_colors[nid] = "#9B111E"
-        elif any(node_pass_flags):
+        elif any(matched_flags):
             node_colors[nid] = "#f1c40f"
         else:
             node_colors[nid] = "#323232"
 
+
     # -------------------------------
-    # (6) Variant span 텍스트/스타일
+    # Update span children & styles
     # -------------------------------
     span_children, span_styles = [], []
-
     for item, n_click in zip(click_store, n_clicks_list):
         vid = item.get("Variant_ID")
         if not vid:
@@ -17227,11 +17299,7 @@ def highlight_from_variant_spans(
             f"{gwas_label_dict.get(s, s)}: {item.get(f'{s}_GT', '')}"
             for s in samples if item.get(f"{s}_GT")
         ]
-        gt_collapsed = ", ".join(gt_pairs[:3]) + ", ..." if len(gt_pairs) > 3 else ", ".join(gt_pairs)
-
-        chr_ = item.get("Chromosome", "")
-        pos = item.get("Position", "")
-        trait = item.get("Trait", "")
+        chr_, pos, trait = item.get("Chromosome", ""), item.get("Position", ""), item.get("Trait", "")
 
         try:
             pos_val = int(float(pos))
@@ -17241,10 +17309,19 @@ def highlight_from_variant_spans(
 
         is_clicked = (vid == variant_id and clicked_active)
 
-        # 🔹 span 내부엔 single/multi 텍스트 없이 표시
-        text = f"chr{chr_}:{pos_display} | {trait} | {gt_collapsed}"
-        span_children.append(text)
-        span_styles.append({
+        # ✅ GT 표시 규칙
+        if len(gt_pairs) <= 3:
+            gt_text = ", ".join(gt_pairs)  # 3개 이하 → 항상 전체 표시
+        elif is_clicked:
+            gt_text = ", ".join(gt_pairs)  # 클릭된 항목 → 전체 표시
+        else:
+            gt_text = ", ".join(gt_pairs[:3]) + ", ..."  # 기본 → 앞 3개 + ellipsis
+
+        # ✅ 텍스트 구성
+        text = f"chr{chr_}:{pos_display} | {trait} | {gt_text}"
+
+        # ✅ 스타일 정의
+        style_dict = {
             "margin": "4px 5px",
             "padding": "4px 10px",
             "border": f"1.5px solid {subtrait_color}",
@@ -17252,7 +17329,7 @@ def highlight_from_variant_spans(
             "display": "inline-block",
             "cursor": "pointer",
             "backgroundColor": f"{subtrait_color}50" if is_clicked else f"{subtrait_color}20",
-            "color": subtrait_color,
+            "color": 'black',
             "fontSize": "12px",
             "fontWeight": "600",
             "boxShadow": (
@@ -17261,91 +17338,41 @@ def highlight_from_variant_spans(
             ),
             "userSelect": "none",
             "transition": "all 0.2s ease",
-        })
+            "whiteSpace": "nowrap",
+            "overflow": "hidden",
+            "textOverflow": "clip" if is_clicked or len(gt_pairs) <= 3 else "ellipsis",
+            "maxWidth": "none" if is_clicked or len(gt_pairs) <= 3 else "600px",
+        }
+
+        span_children.append(text)
+        span_styles.append(style_dict)
 
     # -------------------------------
-    # (7) Cytoscape 스타일
+    # Cytoscape style
     # -------------------------------
     base_styles = get_default_stylesheet2()
-    overlay_styles = [
-        {
-            "selector": f'[id = "{nid}"]',
-            "style": {
-                "background-color": color,
-                "border-color": "#f39c12",
-                "border-width": "3px",
-            },
-        }
-        for nid, color in node_colors.items() if nid
-    ]
-
-    highlight_style = []
-    if selected_comps:
-        palette = [
-            "#8e44ad",  "#6c5ce7", "#2d3436", "#1a1a1a",
-            "#c0399f", "#be90d4", "#4b0082", "#5c3c92", "#3d3d3d",
-            "#1C6BA0", "#2980b9", "#e74c3c", "#c0392b", "#e67e22",
-            "#d35400", "#27ae60", "#2ecc71", "#f1c40f", "#f39c12"
-        ]
-        for i, comp_id in enumerate(selected_comps):
-            comp = next((c for c in comp_info if c.get('id') == comp_id), None)
-            if not comp:
-                continue
-            ccolor = palette[i % len(palette)]
-            for e in comp.get("edges", []):
-                src, tgt = e.get("source"), e.get("target")
-                if src and tgt:
-                    highlight_style.append({
-                        "selector": f'edge[source="{src}"][target="{tgt}"]',
-                        "style": {
-                            "line-color": ccolor,
-                            "target-arrow-color": ccolor,
-                            "width": 4,
-                        },
-                    })
-    
-    highlight_select_styles = []
-    for nd in selected_nodes or []:
-        nid = nd.get("id") or nd.get("name")
-        if not nid:
-            continue
-        highlight_select_styles.append({
-            "selector": f'node[id = "{nid}"]',
-            "style": {
-                "border-color": "#145A32",
-                "border-width": 6,
-                "transition-property": "border-color, border-width",
-                "transition-duration": "0.3s",
-            },
-        })
-
-    new_styles = base_styles + overlay_styles + highlight_style + highlight_select_styles
+    overlay_styles = [{
+        "selector": f'[id = "{nid}"]',
+        "style": {"background-color": color, "border-color": "#f39c12", "border-width": "3px"},
+    } for nid, color in node_colors.items()]
+    new_styles = base_styles + overlay_styles
 
     # -------------------------------
-    # (8) Legend 구성
+    # Legend
     # -------------------------------
     legend_children = html.Div([
-       
-
-        html.Div([
-            html.Span("●", style={"color": "#9B111E", "marginRight": "4px"}), "All minor alleles present",
-        ], style={"fontSize": "12px", "marginBottom": "2px"}),
-
-        html.Div([
-            html.Span("●", style={"color": "#f1c40f", "marginRight": "4px"}), "Partially matched",
-        ], style={"fontSize": "12px", "marginBottom": "2px"}),
-
-        html.Div([
-            html.Span("●", style={"color": "#323232", "marginRight": "4px"}), "No minor allele",
-        ], style={"fontSize": "12px", "marginBottom": "6px"}),
-
-        html.Div(
-            f"Mode: {'Single variant' if mode == 'single' else 'Multi variant'}",
-            style={"fontSize": "12px", "fontStyle": "italic", "color": "#555"}
-        ),
+        html.Div(["● ", "All minor alleles present"], style={"color": "#9B111E", "fontSize": "12px"}),
+        html.Div(["● ", "Partially matched"], style={"color": "#f1c40f", "fontSize": "12px"}),
+        html.Div(["● ", "No minor allele"], style={"color": "#323232", "fontSize": "12px"}),
+        html.Div(f"Mode: {'Single variant' if mode == 'single' else 'Multi variant'}",
+                 style={"fontSize": "12px", "fontStyle": "italic", "color": "#555"})
     ])
 
     return new_styles, span_children, span_styles, legend_children
+
+
+
+
 
 
 
@@ -17671,3 +17698,33 @@ def toggle_legend_sections(active_tab):
             {"display": "block", **base_style},
             {"display": "none", **base_style},
         )
+
+
+@callback(
+    Output('group-type-radio', 'options'),
+    [
+        Input('integrated-selected-traits-store', 'data'),
+        Input('presence-sets-store', 'data'),
+        Input('gwas-selected-samples-store', 'data'),
+    ],
+)
+def update_group_type_labels(traits_data, presence_data, samples_data):
+    """
+    각 store 값의 길이에 따라 count를 표시하되,
+    0이면 count를 숨기고 기본 라벨만 유지
+    """
+    # --- count 계산 ---
+    traits_count = len(traits_data or [])
+    presence_count = len(presence_data or []) if isinstance(presence_data, list) else (1 if presence_data else 0)
+    samples_count = len(samples_data or [])
+
+    # --- count를 조건부 표시 ---
+    def fmt(label, count):
+        return f"{label} ({count})" if count > 0 else label
+
+    options = [
+        {'label': fmt("Trait", traits_count), 'value': 'trait'},
+        {'label': fmt("Variant ID", presence_count), 'value': 'variant'},
+        {'label': fmt("Sample", samples_count), 'value': 'sample'},
+    ]
+    return options

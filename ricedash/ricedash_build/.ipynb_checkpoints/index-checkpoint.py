@@ -96,11 +96,10 @@ def display_page(pathname, search):
             
             return app7_2.create_layout(processed_name, variety_id)
         elif pathname == '/tutorial':
-            md_path = pathlib.Path(__file__).parent / "assets" / "riceDBreeder_tutorial_modern_v4.md"  # ← 3섹션 MD
+            md_path = pathlib.Path(__file__).parent / "assets" / "riceDBreeder_tutorial_modern_v4.md"
             with open(md_path, encoding="utf-8") as f:
                 md_text = f.read()
 
-            # 레이아웃: 본문 + 우측 TOC(스티키)
             return html.Div([
                 create_header(),
                 html.Div(className="tut-wrap", children=[
@@ -109,7 +108,7 @@ def display_page(pathname, search):
                             dcc.Markdown(
                                 md_text,
                                 link_target="_blank",
-                                dangerously_allow_html=True,   # <span id="..."> 앵커 허용
+                                dangerously_allow_html=True,
                             )
                         ]),
                         html.Aside(className="tut-side", children=[
@@ -118,12 +117,11 @@ def display_page(pathname, search):
                             html.A("Overview Preview", href="#preview"),
                             html.A("Using the App", href="#using"),
                             html.Hr(),
-                            html.A("Page 1", href="#page1", style={"marginLeft": "12px", "fontSize": "13px"}),
+                            html.A("– Home Interface", href="#home", style={"marginLeft": "20px", "fontSize": "13px"}),
+                            html.A("– Phenotype Search", href="#phenotype-search", style={"marginLeft": "20px", "fontSize": "13px"}),
+                            html.A("– Integrated Visual Dashboard", href="#visual-dashboard", style={"marginLeft": "20px", "fontSize": "13px"}),
                             html.Hr(),
-                            html.A("Page 2", href="#page2", style={"marginLeft": "12px", "fontSize": "13px"}),
-                            
                             html.A("– Pedigree Interaction Controls", href="#controls", style={"marginLeft": "20px", "fontSize": "13px"}),
-                            
                             html.A("– Add Option Controls", href="#add-option", style={"marginLeft": "20px", "fontSize": "13px"}),
                             html.A("– Phenotype Tab", href="#phenotype", style={"marginLeft": "20px", "fontSize": "13px"}),
                             html.A("– GWAS Tab", href="#gwas", style={"marginLeft": "20px", "fontSize": "13px"}),
