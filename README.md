@@ -4,7 +4,6 @@ Dockerized version of **RiceDBreeder** web applications.
 
 ---
 
-
 ## 🌾 Overview
 
 **RiceDBreeder** integrates three layers of Korean rice data — **pedigree**, **phenotype**, and **genotype** — to enable cross-layer reasoning for digital breeding decisions.
@@ -89,31 +88,31 @@ Clicking bar or scatter elements highlights corresponding pedigree nodes.
 
 ## 🧮 Filtering Options
 
-RiceDBreeder provides three main filtering layers:
+RiceDBreeder provides two main filtering systems — **Filter Options** and **Group Options** — both of which incorporate trait/subtrait selection.
 
-### 🧠 1. Filter Options
+### 🧠 1. Filter Options (with Subtrait Filtering)
 
-| Option                     | Description                                                 |
-| -------------------------- | ----------------------------------------------------------- |
-| **P-value**                | Adjust GWAS significance cutoff (red line in scatter plot). |
-| **MAF Filter**             | Minimum minor allele frequency threshold (default ≥ 0.05).  |
-| **SNP Presence Threshold** | Filter variants appearing in ≥ N samples.                   |
-| **Unique Mode**            | Show sample-unique variants (for 2–5 samples).              |
+| Option                       | Description                                                                                                   |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Trait/Subtrait Selection** | Select trait domains (e.g., yield, stress, biochemical). Subtrait choice determines which variants are shown. |
+| **P-value**                  | Adjust GWAS significance cutoff (red line in scatter plot).                                                   |
+| **MAF Filter**               | Minimum minor allele frequency threshold (default ≥ 0.05).                                                    |
+| **SNP Presence Threshold**   | Filter variants appearing in ≥ N samples.                                                                     |
+| **Unique Mode**              | Show sample-unique variants (for 2–5 samples).                                                                |
 
-### 🧩 2. Group Options
+Trait-based filtering under this section limits visible variants and updates color mapping across bar/scatter plots accordingly.
 
-| Option                | Description                                                               |
-| --------------------- | ------------------------------------------------------------------------- |
-| **Group Selection**   | Create up to 5 comparison groups (by trait, variant, or sample).          |
-| **Variant ID Filter** | Compare results between different presence thresholds (e.g., N=4 vs N=6). |
-| **Sample Grouping**   | Identify variants unique to each group of selected samples.               |
+---
 
-### 🌿 3. Trait Options
+### 🧩 2. Group Options (with Trait-Based Selection)
 
-| Option                       | Description                                              |
-| ---------------------------- | -------------------------------------------------------- |
-| **Trait/Subtrait Selection** | Choose trait domains (e.g., yield, stress, biochemical). |
-| **Trait-based Filtering**    | Restrict analysis to specific subtrait-linked variants.  |
+| Option                            | Description                                                                                                                  |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Group Selection (Trait-based)** | Create up to 5 comparison groups based on selected traits or subtraits. For example, biochemical vs stress-related variants. |
+| **Variant ID Filter**             | Compare results between different presence thresholds (e.g., N=4 vs N=6).                                                    |
+| **Sample Grouping**               | Identify variants unique to each selected sample group.                                                                      |
+
+Trait-driven grouping allows users to compare allele distribution across trait categories (e.g., yield vs stress), ensuring consistent linkage to the phenotype layer.
 
 ---
 
@@ -129,12 +128,12 @@ RiceDBreeder provides three main filtering layers:
 
 * Expandable pedigree (+1 generation per click)
 * Multi-variety integration
-* Interactive filtering (trait, variant, group)
+* Integrated trait-based filtering across all views
 * Bidirectional linkage between graph and plots
-* Reset, remove, and filter memory functions
+* Reset, remove, and memory-preserved filters
+* GWAS–VCF–Pedigree synchronization
 
 ---
-
 ## 🚀 Quick Start
 
 ### Build & Run
@@ -144,10 +143,6 @@ From the project root, run the following command:
 ```bash
 docker compose up -d
 ```
-
-
-
-> ⚙️ If a port conflict occurs, you can edit the port number in `docker-compose.yml` before running.
 
 ---
 
