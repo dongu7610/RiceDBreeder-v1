@@ -4,145 +4,159 @@ Dockerized version of **RiceDBreeder** web applications.
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Build & Run
 
-### 1️⃣ Build & Run
-
-From the project root, run the following command:
+From the project root, execute:
 
 ```bash
 docker compose up -d
 ```
 
-Then open your browser and access:
+Then open your browser:
 
 ```
 http://localhost:11028/
 ```
 
-> ⚙️ If a port conflict occurs, you can edit the port number in `docker-compose.yml` before running.
+> ⚙️ If a port conflict occurs, edit the port in `docker-compose.yml` before running.
 
 ---
 
 ## 🌾 Overview
 
-**RiceDBreeder** integrates three layers of Korean rice data — **pedigree**, **phenotype**, and **genotype** — to enable cross-layer reasoning for digital breeding decisions.
-
-Traditional phenotype-only selection faces challenges in improving multiple traits under climate change, pest pressure, and shifting market demands.
-In Korea, phenotypic records, genomic (NGS) data, and pedigree information are separately maintained, limiting their combined use.
-RiceDBreeder overcomes these barriers by offering a unified, interactive web interface.
+**RiceDBreeder** integrates three core data layers of Korean rice resources — **pedigree**, **phenotype**, and **genotype (VCF + GWAS)** — to support data-driven breeding decisions.
+It bridges gaps caused by fragmented NGS data, separately stored phenotype records, and document-based pedigree archives, offering a unified visual interface for cross-layer exploration.
 
 ---
 
 ## 🏠 Home Interface
 
-The home page provides two primary entry points:
+Two primary entry points:
 
-* **Phenotype Search** — for filtering varieties based on phenotypic traits.
-* **Rice Variety Search** — for exploring a specific variety’s pedigree, phenotype, and genotype layers.
+* **Phenotype Search** — explore varieties by phenotype filters.
+* **Rice Variety Search** — analyze a selected variety’s pedigree, phenotype, and genotype data.
 
-![Home Page](images/home.png)
-*Figure 1. Home interface showing entry points for Phenotype and Variety Search.*
+![Home Interface](images/home.png)
 
 ---
 
-## 🧩 Application Modules
+## 🧩 Phenotype Search
 
-### 1️⃣ Phenotype Search
-
-Select **resource type** (*Breeding Line, Cultivar, Germplasm, Landrace, Weedy Type*),
-then choose traits such as `planting date`, `grain width`, etc.
-The interface provides **distribution plots** and **filter controls** to view and narrow down results.
-Filtered varieties are listed in a table with direct links to their integrated variety cards.
+Choose **resource type** (e.g., *Breeding Line, Cultivar, Germplasm, Landrace, Weedy Type*) and select traits such as `planting date` or `grain width`.
+Distribution plots visualize value ranges and filtered subsets.
+The filtered varieties appear in a table with direct access to the detailed variety view.
 
 ![Phenotype Search](images/phenotype_search.png)
-*Figure 2. Phenotype Search interface displaying filter panels and trait distribution plots.*
 
 ---
 
-### 2️⃣ Rice Variety Search
+## 🌳 Rice Variety Search
 
-Serves as the main entry for **Pedigree–Phenotype–Genotype integration**.
-Selecting a base variety loads:
+The central analysis module for integrated **pedigree–phenotype–genotype** exploration.
+Selecting a variety loads:
 
-* **Pedigree view (left)** — ±2 generations (ancestors and descendants).
-* **Analysis panel (right)** — toggles between *Phenotype Analysis* and *GWAS Analysis* tabs.
+* **Pedigree Visualization (left)** — ±2 generations up and down.
+* **Analysis Dashboard (right)** — toggles between *Phenotype* and *GWAS Analysis* tabs.
 
-![Variety Search - Phenotype](images/variety_search_pheno.png)
-*Figure 3. Rice Variety Search — Phenotype analysis showing trait distributions with the base variety highlighted.*
+![Variety - Phenotype Mode](images/variety_search_pheno.png)
 
-![Variety Search - Genotype](images/variety_search_geno.png)
-*Figure 4. Rice Variety Search — Genotype analysis showing subtrait-based variant counts and GWAS scatter plots.*
+*Phenotype Analysis shows trait distributions (e.g., yield, hull color, amylose) with the base variety highlighted.*
 
----
+![Variety - Genotype Mode](images/variety_search_geno.png)
 
-## 🌳 Pedigree Visualization
-
-* **Scope:** Two parental generations up and two descendant generations down.
-* **Node colors:**
-
-  * 🟦 Genotype only
-  * 🟩 Phenotype only
-  * 🟧 Both genotype & phenotype
-  * ⬜ No linked data
-* **Shapes:**
-
-  * Round = found in pedigree
-  * Rectangle = not connected to pedigree
-
-### Pedigree Features
-
-* **Expand / Remove:** Left-click to expand or collapse one generation.
-* **Reset:** Return to the initial state.
-* **Add Additional Varieties:**
-
-  * Pedigree-based search
-  * Phenotype-based search (same filters as Phenotype Search)
-  * Genotype-based search
+*GWAS Analysis shows trait-linked SNPs by subtrait color across chromosomes.*
 
 ---
 
-## 🧬 Genotype Analysis & Filtering Options
+## 🧬 Filter Options (Genotype Module)
 
-RiceDBreeder provides two integrated filtering systems — **Filter Options** and **Group Options** — both of which support trait/subtrait selection.
+Users can control the displayed SNPs through flexible filters.
 
-### 🧠 1. Filter Options (with Subtrait Filtering)
+| Option                     | Description                                                                          |
+| -------------------------- | ------------------------------------------------------------------------------------ |
+| **Trait/Subtrait**         | Select domains (e.g., yield, stress, biochemical). Determines variant color mapping. |
+| **P-value**                | Adjust statistical significance threshold (default -log₁₀P = 5).                     |
+| **MAF Filter**             | Enable and set minor allele frequency cutoff (≥ 0.05 by default).                    |
+| **SNP Presence Threshold** | Display variants appearing in ≥ N samples.                                           |
+| **Unique Mode**            | Highlight variants unique to individual samples (requires 2–5 samples).              |
 
-| Option                       | Description                                                                                   |
-| ---------------------------- | --------------------------------------------------------------------------------------------- |
-| **Trait/Subtrait Selection** | Select domains (e.g., yield, stress, biochemical). Determines which variants appear in plots. |
-| **P-value**                  | Adjust GWAS significance threshold (red line in scatter plot).                                |
-| **MAF Filter**               | Minimum minor allele frequency (default ≥ 0.05).                                              |
-| **SNP Presence Threshold**   | Filter variants appearing in ≥ N samples.                                                     |
-| **Unique Mode**              | Show sample-unique variants (2–5 samples).                                                    |
-
----
-
-### 🧩 2. Group Options (with Trait-Based Selection)
-
-| Option                            | Description                                                               |
-| --------------------------------- | ------------------------------------------------------------------------- |
-| **Group Selection (Trait-based)** | Create up to 5 comparison groups based on selected traits or subtraits.   |
-| **Variant ID Filter**             | Compare results between different presence thresholds (e.g., N=4 vs N=6). |
-| **Sample Grouping**               | Identify variants unique to each selected sample group.                   |
-
-Trait-driven grouping enables comparison of allele distribution across categories (e.g., yield vs stress).
+![Filter Options](images/filter_option.png)
 
 ---
 
-## 🔄 Pedigree–Analysis Interactions
+## 🌾 Pedigree Visualization
 
-* **Phenotype tab:** Clicking nodes highlights phenotype markers.
-* **Genotype tab:** Clicking nodes adds pink borders and updates bar/scatter overlays.
-* Interactions are **bidirectional**, ensuring that all panels remain synchronized.
+The pedigree dynamically renders ±2 generations of ancestors and descendants.
+
+* **Color scheme:**
+  🟦 Genotype only 🟩 Phenotype only 🟧 Both ⬜ No linked data
+* **Shape:**
+  Circle = pedigree-registered Square = unlinked sample
+
+**Expandable** by left-clicking (one generation per click).
+**Reset / Remove / Additional** controls allow customized exploration.
+
+### Example: Multiple Pedigrees with Highlighted Connections
+
+Each pedigree (e.g., *Pedigree 1*, *Pedigree 2*) is rendered with distinct edges for relationship tracing.
+
+![Pedigree Networks](images/pedigree1_pedigree2.png)
 
 ---
 
-## ⚙️ Features Summary
+## 🎯 Variant Selection and Reflection
 
-* Expandable pedigree (+1 generation per click)
-* Multi-variety integration
-* Integrated trait-based filtering across all views
-* Bidirectional linkage between graph and plots
-* Reset, remove, and memory-preserved filters
-* GWAS–VCF–Pedigree synchronization
+When a SNP is clicked in the scatter plot, the selected variant is highlighted,
+and the corresponding varieties carrying the same genotype are visually reflected in the pedigree.
+
+### Step 1 — Variant Selected
+
+![Variant Selected](images/select_variant.png)
+
+### Step 2 — Pedigree Highlight Updated
+
+![Variant Reflected in Pedigree](images/select_variant_result.png)
+
+---
+
+## 🌈 Unique Mode Visualization
+
+When **Unique Mode** is enabled, variants unique to each sample are emphasized in the scatter plot.
+Each point corresponds to a sample-specific variant, displayed in distinct colors and markers.
+
+![Unique Mode Scatter Plot](images/unique_gwas_scatter_plot.png)
+
+---
+
+## 🌿 Handling Additional and No-Pedigree Cases
+
+When users add varieties not linked to any known pedigree,
+RiceDBreeder displays them as **NoPedigree Varieties** —
+highlighted rectangular nodes visually separated from pedigree-linked groups.
+
+![NoPedigree and Additional Varieties](images/additional_nopedi.png)
+
+---
+
+## 🔁 Interaction Summary
+
+* **Phenotype ↔ Pedigree linkage:** Trait selection colors nodes by values.
+* **Genotype ↔ Pedigree linkage:** SNP selection highlights carriers in the network.
+* **Bidirectional sync:** Any click event updates both plots and pedigree.
+* **Expandable nodes:** Add or remove generations dynamically.
+* **Add additional varieties:** Merge multiple pedigrees or add external varieties.
+
+---
+
+## ⚙️ Key Features
+
+* Unified cross-layer exploration (Pedigree ↔ Phenotype ↔ Genotype)
+* Interactive pedigree expansion and variant tracking
+* Trait- and subtrait-level GWAS integration
+* Unique variant highlighting and threshold-based filtering
+* Seamless multi-variety comparison
+* No-pedigree visualization for unlinked samples
+
+---
+
+
