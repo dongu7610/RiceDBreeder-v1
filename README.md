@@ -53,6 +53,7 @@ The filtered varieties appear in a table with direct access to the detailed vari
 ## 🌳 Rice Variety Search
 
 The central analysis module for integrated **pedigree–phenotype–genotype** exploration.
+
 Selecting a variety loads:
 
 * **Pedigree Visualization (left)** — ±2 generations up and down.
@@ -66,6 +67,7 @@ Selecting a variety loads:
 
 *GWAS Analysis shows trait-linked SNPs by subtrait color across chromosomes.*
 
+> **Note:**  Selecting a node in the pedigree (highlighted with a pink border) immediately updates the right panel (Phenotype/GWAS).
 ---
 
 ## 🧬 Filter Options (Genotype Module)
