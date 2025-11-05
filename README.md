@@ -4,21 +4,6 @@ Dockerized version of **RiceDBreeder** web applications.
 
 ---
 
-## 🚀 Quick Start
-
-### 1️⃣ Build & Run
-
-From the project root, run the following command:
-
-```bash
-docker compose up -d
-```
-
-
-
-> ⚙️ If a port conflict occurs, you can edit the port number in `docker-compose.yml` before running.
-
----
 
 ## 🌾 Overview
 
@@ -150,5 +135,20 @@ RiceDBreeder provides three main filtering layers:
 
 ---
 
+## 🚀 Quick Start
+
+### Build & Run
+
+From the project root, run the following command:
+
+```bash
+docker compose up -d
+```
+
+
+
+> ⚙️ If a port conflict occurs, you can edit the port number in `docker-compose.yml` before running.
+
+---
 
 
