@@ -91,7 +91,7 @@ Users can control the displayed SNPs through flexible filters.
 |-------------------------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | **Trait grouping**      | Compare sets of traits under current filters.                        | In the **bar plot**, select traits → they are recorded in **Selected traits**. Assign these to **Group 1..k** to compare. |
 | **Variant-ID grouping** | Build and compare variant sets from different presence thresholds.   | Example with **7 samples**: **Group 1 = Presence ≥4 (4–5)**, **Group 2 = Presence ≥6 (6–7)**; compare the sets.           |
-| **Sample grouping**     | Compare groups and detect **group-unique** vs shared variants.       | Partition selected samples into groups (e.g., **3,3,1** or **4,3**; up to **5 groups**) and analyze.                     |
+| **Sample grouping**     | Compare groups and detect **group-unique** variants.       | Partition selected samples into groups (e.g., **3,3,1** or **4,3**; up to **5 groups**) and analyze.                     |
 
 > **Note:** You can define up to **5 groups** total (across all grouping modes).
 
